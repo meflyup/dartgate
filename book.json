@@ -1,0 +1,32 @@
+{
+    "gitbook": ">=2.0.0",
+    "plugins": [
+        "sectionx",
+        "mcqx",
+        "fbqx",
+        "ace",
+        "mermaid",
+        "videoplayer",
+        "local-video",
+        "quiz",
+        "exercises-quote-fix"
+    ],
+    "pluginsConfig": {
+        "quiz": {
+            "labels": {
+                "check": "Check my answers",
+                "showExplanation": "Explain",
+                "showCorrect": "Show all",
+                "explanationHeader": "Explanation"
+            },
+            "text": {
+                "noChosen": "Choose at least one answer",
+                "incomplete": "Some correct answers are missing"
+            },
+            "buttons": {
+                "showCorrect": true,
+                "showExplanation": true
+            }
+        }
+    }
+}
