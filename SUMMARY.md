@@ -31,6 +31,5 @@
     * [我们编写的程序可以在所有的浏览器上显示吗？](runanywhere.md)
     * [ace代码渲染测试](githubissues_ti.md)
 * [数据库关键点](db_key_concept.md)
-* exercise 
-
+* try
 
