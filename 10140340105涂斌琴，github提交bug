@@ -1,0 +1,1515 @@
+2016-09-08 16:39:11.9356|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:12:26.9373|INFO|thread:25|AsyncReaderWriterLock|Released concurrent scheduler for operation: 121 at RepositoryViewModel.cs:325 after blocking 0.0329208s
+2016-09-08 16:12:26.9574|INFO|thread:28|AsyncReaderWriterLock|Released concurrent scheduler for operation: 122 at GitClient.cs:496 after blocking 0.0267091s
+2016-09-08 16:12:26.9574|INFO|thread:37|AsyncReaderWriterLock|Released concurrent scheduler for operation: 123 at GitClient.cs:496 after blocking 0.0260561s
+2016-09-08 16:13:08.1506|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 124 at GitClient.cs:149
+2016-09-08 16:13:08.1506|INFO|thread:42|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 124 at GitClient.cs:149 after waiting 3.46E-05s
+2016-09-08 16:13:08.1536|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 125 at GitClient.cs:199
+2016-09-08 16:13:08.1536|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 126 at RepositoryModel.cs:596
+2016-09-08 16:13:08.1686|INFO|thread:25|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 125 at GitClient.cs:199 after waiting 0.0150495s
+2016-09-08 16:13:08.1686|INFO|thread:46|AsyncReaderWriterLock|Released concurrent scheduler for operation: 124 at GitClient.cs:149 after blocking 0.0194283s
+2016-09-08 16:13:08.1686|INFO|thread:46|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 126 at RepositoryModel.cs:596 after waiting 0.0160939s
+2016-09-08 16:13:08.1896|INFO|thread:42|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 127 at GitClient.cs:288
+2016-09-08 16:13:08.1896|INFO|thread:42|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 128 at BranchSynchronizer.cs:126
+2016-09-08 16:13:08.1896|INFO|thread:42|AsyncReaderWriterLock|Released concurrent scheduler for operation: 126 at RepositoryModel.cs:596 after blocking 0.0196686s
+2016-09-08 16:13:08.1896|INFO|thread:46|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 127 at GitClient.cs:288 after waiting 0.0003857s
+2016-09-08 16:13:08.1896|INFO|thread:42|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 128 at BranchSynchronizer.cs:126 after waiting 0.0003186s
+2016-09-08 16:13:08.2046|INFO|thread:42|ConcurrentRepositoryConnection|branch stats: remote not found for 10140340105
+2016-09-08 16:13:08.2046|INFO|thread:42|AsyncReaderWriterLock|Released concurrent scheduler for operation: 128 at BranchSynchronizer.cs:126 after blocking 0.0145214s
+2016-09-08 16:13:08.2226|INFO|thread:42|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:13:08.2226|INFO|thread:42|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:13:08.2226|INFO|thread:42|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:13:08.2847|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 125 at GitClient.cs:199 after blocking 0.1160007s
+2016-09-08 16:13:08.2917|INFO|thread:19|ConcurrentRepositoryConnection|Took 65ms to git status
+2016-09-08 16:13:08.2917|INFO|thread:19|ConcurrentRepositoryConnection|Took 65ms to git status and parse output
+2016-09-08 16:13:08.2917|INFO|thread:19|NewCommitViewModel|Took 111ms to load files for F:\Web编程\dartgate\dartgate
+2016-09-08 16:13:08.2917|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 127 at GitClient.cs:288 after blocking 0.1110459s
+2016-09-08 16:13:08.3087|INFO|thread:25|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 129 at GitClient.cs:496
+2016-09-08 16:13:08.3087|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 129 at GitClient.cs:496 after waiting 3.59E-05s
+2016-09-08 16:13:08.3087|INFO|thread: 1|NewCommitViewModel|Took 15ms to render file list for F:\Web编程\dartgate\dartgate
+2016-09-08 16:13:08.3087|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 130 at RepositoryViewModel.cs:325
+2016-09-08 16:13:08.3087|INFO|thread:37|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 130 at RepositoryViewModel.cs:325 after waiting 0.0001924s
+2016-09-08 16:13:08.3427|INFO|thread:39|AsyncReaderWriterLock|Released concurrent scheduler for operation: 129 at GitClient.cs:496 after blocking 0.0340369s
+2016-09-08 16:13:08.3427|INFO|thread:19|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 131 at GitClient.cs:496
+2016-09-08 16:13:08.3427|INFO|thread:42|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 131 at GitClient.cs:496 after waiting 2.09E-05s
+2016-09-08 16:13:08.3427|INFO|thread:45|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 132 at GitClient.cs:496
+2016-09-08 16:13:08.3427|INFO|thread:45|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 132 at GitClient.cs:496 after waiting 0.0001141s
+2016-09-08 16:13:08.3427|INFO|thread:38|AsyncReaderWriterLock|Released concurrent scheduler for operation: 130 at RepositoryViewModel.cs:325 after blocking 0.031338s
+2016-09-08 16:13:08.3717|INFO|thread:45|AsyncReaderWriterLock|Released concurrent scheduler for operation: 132 at GitClient.cs:496 after blocking 0.0279057s
+2016-09-08 16:13:08.3717|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 131 at GitClient.cs:496 after blocking 0.0307248s
+2016-09-08 16:13:09.5186|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364\7za.exe', Args: 'x -y "-oC:\Users\lenovo\AppData\Local\GitHub\h4nak4k3.vv3.deleteme" "C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364\posh-git.7z"', Working Directory: 
+2016-09-08 16:13:09.5447|INFO|thread: 1|PortablePackageManager|Extracting posh-git.7z is (so far) successful
+2016-09-08 16:13:09.8399|INFO|thread:37|PortablePackageManager|Extracted package successfully: posh-git.7z
+2016-09-08 16:13:09.8399|INFO|thread: 1|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:13:09.8399|INFO|thread: 1|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364\NativeBinaries/x86;C:\Python31\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\Lenovo\Lenovo Home\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files\Common Files\Autodesk Shared\;D:\搜狐影音\5.0.2.23
+2016-09-08 16:13:09.8399|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\windows\System32\WindowsPowerShell\v1.0\Powershell.exe', Args: '-NoExit -ExecutionPolicy Unrestricted -File "C:\Users\lenovo\AppData\Local\GitHub\PoshGit_869d4c5159797755bc04749db47b166136e59132\profile.example.ps1"', Working Directory: F:\Web编程\dartgate\dartgate
+2016-09-08 16:13:18.8436|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 133 at GitClient.cs:149
+2016-09-08 16:13:18.8436|INFO|thread:11|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 133 at GitClient.cs:149 after waiting 3.12E-05s
+2016-09-08 16:13:18.8436|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 134 at GitClient.cs:199
+2016-09-08 16:13:18.8436|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 135 at RepositoryModel.cs:596
+2016-09-08 16:13:18.8436|INFO|thread:35|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 134 at GitClient.cs:199 after waiting 0.0005435s
+2016-09-08 16:13:18.8436|INFO|thread:38|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 135 at RepositoryModel.cs:596 after waiting 0.0001056s
+2016-09-08 16:13:18.8576|INFO|thread:28|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 136 at GitClient.cs:288
+2016-09-08 16:13:18.8576|INFO|thread:28|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 137 at BranchSynchronizer.cs:126
+2016-09-08 16:13:18.8576|INFO|thread:28|AsyncReaderWriterLock|Released concurrent scheduler for operation: 135 at RepositoryModel.cs:596 after blocking 0.0131965s
+2016-09-08 16:13:18.8576|INFO|thread:28|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 136 at GitClient.cs:288 after waiting 0.0006051s
+2016-09-08 16:13:18.8576|INFO|thread:38|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 137 at BranchSynchronizer.cs:126 after waiting 0.0009878s
+2016-09-08 16:13:18.8576|INFO|thread:46|AsyncReaderWriterLock|Released concurrent scheduler for operation: 133 at GitClient.cs:149 after blocking 0.0186461s
+2016-09-08 16:13:18.8706|INFO|thread:38|ConcurrentRepositoryConnection|branch stats: remote not found for 10140340105
+2016-09-08 16:13:18.8706|INFO|thread:38|AsyncReaderWriterLock|Released concurrent scheduler for operation: 137 at BranchSynchronizer.cs:126 after blocking 0.011754s
+2016-09-08 16:13:18.8706|INFO|thread:28|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:13:18.8706|INFO|thread:28|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:13:18.8706|INFO|thread:28|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:13:18.9226|INFO|thread:46|ConcurrentRepositoryConnection|Took 46ms to git status
+2016-09-08 16:13:18.9226|INFO|thread:46|ConcurrentRepositoryConnection|Took 46ms to git status and parse output
+2016-09-08 16:13:18.9657|INFO|thread:46|NewCommitViewModel|Took 108ms to load files for F:\Web编程\dartgate\dartgate
+2016-09-08 16:13:18.9657|INFO|thread:46|AsyncReaderWriterLock|Released concurrent scheduler for operation: 136 at GitClient.cs:288 after blocking 0.1076751s
+2016-09-08 16:13:18.9657|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 134 at GitClient.cs:199 after blocking 0.125537s
+2016-09-08 16:13:18.9657|INFO|thread:11|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 138 at GitClient.cs:496
+2016-09-08 16:13:18.9657|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 138 at GitClient.cs:496 after waiting 3.59E-05s
+2016-09-08 16:13:18.9657|INFO|thread: 1|NewCommitViewModel|Took 12ms to render file list for F:\Web编程\dartgate\dartgate
+2016-09-08 16:13:18.9657|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 139 at RepositoryViewModel.cs:325
+2016-09-08 16:13:18.9657|INFO|thread:25|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 139 at RepositoryViewModel.cs:325 after waiting 2.65E-05s
+2016-09-08 16:13:19.0027|INFO|thread:11|AsyncReaderWriterLock|Released concurrent scheduler for operation: 138 at GitClient.cs:496 after blocking 0.0277256s
+2016-09-08 16:13:19.0027|INFO|thread:42|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 140 at GitClient.cs:496
+2016-09-08 16:13:19.0027|INFO|thread:46|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 140 at GitClient.cs:496 after waiting 4.61E-05s
+2016-09-08 16:13:19.0027|INFO|thread:28|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 141 at GitClient.cs:496
+2016-09-08 16:13:19.0027|INFO|thread:28|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 141 at GitClient.cs:496 after waiting 0.000112s
+2016-09-08 16:13:19.0027|INFO|thread:47|AsyncReaderWriterLock|Released concurrent scheduler for operation: 139 at RepositoryViewModel.cs:325 after blocking 0.0286943s
+2016-09-08 16:13:19.0317|INFO|thread:28|AsyncReaderWriterLock|Released concurrent scheduler for operation: 141 at GitClient.cs:496 after blocking 0.0276666s
+2016-09-08 16:13:19.0317|INFO|thread:42|AsyncReaderWriterLock|Released concurrent scheduler for operation: 140 at GitClient.cs:496 after blocking 0.0304301s
+2016-09-08 16:13:28.8008|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 142 at GitClient.cs:149
+2016-09-08 16:13:28.8008|INFO|thread:38|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 142 at GitClient.cs:149 after waiting 9.83E-05s
+2016-09-08 16:13:28.8008|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 143 at GitClient.cs:199
+2016-09-08 16:13:28.8008|INFO|thread:42|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 143 at GitClient.cs:199 after waiting 5.9E-05s
+2016-09-08 16:13:28.8008|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 144 at RepositoryModel.cs:596
+2016-09-08 16:13:28.8008|INFO|thread:19|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 144 at RepositoryModel.cs:596 after waiting 5.26E-05s
+2016-09-08 16:13:28.8248|INFO|thread:39|AsyncReaderWriterLock|Released concurrent scheduler for operation: 142 at GitClient.cs:149 after blocking 0.0234546s
+2016-09-08 16:13:28.8248|INFO|thread:35|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 145 at GitClient.cs:288
+2016-09-08 16:13:28.8248|INFO|thread:35|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 146 at BranchSynchronizer.cs:126
+2016-09-08 16:13:28.8248|INFO|thread:35|AsyncReaderWriterLock|Released concurrent scheduler for operation: 144 at RepositoryModel.cs:596 after blocking 0.0263109s
+2016-09-08 16:13:28.8248|INFO|thread:35|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 145 at GitClient.cs:288 after waiting 0.0008736s
+2016-09-08 16:13:28.8248|INFO|thread:19|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 146 at BranchSynchronizer.cs:126 after waiting 0.0005863s
+2016-09-08 16:13:28.8458|INFO|thread:19|ConcurrentRepositoryConnection|branch stats: remote not found for 10140340105
+2016-09-08 16:13:28.8458|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 146 at BranchSynchronizer.cs:126 after blocking 0.0152484s
+2016-09-08 16:13:28.8458|INFO|thread:28|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:13:28.8458|INFO|thread:28|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:13:28.8458|INFO|thread:28|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:13:28.8758|INFO|thread:18|AsyncReaderWriterLock|Released concurrent scheduler for operation: 143 at GitClient.cs:199 after blocking 0.0735086s
+2016-09-08 16:13:28.8758|INFO|thread:46|ConcurrentRepositoryConnection|Took 28ms to git status
+2016-09-08 16:13:28.8758|INFO|thread:46|ConcurrentRepositoryConnection|Took 29ms to git status and parse output
+2016-09-08 16:13:28.8758|INFO|thread:46|NewCommitViewModel|Took 55ms to load files for F:\Web编程\dartgate\dartgate
+2016-09-08 16:13:28.8758|INFO|thread:46|AsyncReaderWriterLock|Released concurrent scheduler for operation: 145 at GitClient.cs:288 after blocking 0.0544472s
+2016-09-08 16:13:28.9068|INFO|thread:42|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 147 at GitClient.cs:496
+2016-09-08 16:13:28.9068|INFO|thread:25|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 147 at GitClient.cs:496 after waiting 2.65E-05s
+2016-09-08 16:13:28.9068|INFO|thread: 1|NewCommitViewModel|Took 25ms to render file list for F:\Web编程\dartgate\dartgate
+2016-09-08 16:13:28.9068|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 148 at RepositoryViewModel.cs:325
+2016-09-08 16:13:28.9068|INFO|thread:19|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 148 at RepositoryViewModel.cs:325 after waiting 3.25E-05s
+2016-09-08 16:13:28.9299|INFO|thread:11|AsyncReaderWriterLock|Released concurrent scheduler for operation: 148 at RepositoryViewModel.cs:325 after blocking 0.0185584s
+2016-09-08 16:13:28.9299|INFO|thread:28|AsyncReaderWriterLock|Released concurrent scheduler for operation: 147 at GitClient.cs:496 after blocking 0.0234564s
+2016-09-08 16:13:28.9329|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 149 at ICommitCreator.cs:89
+2016-09-08 16:13:28.9329|INFO|thread:35|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 149 at ICommitCreator.cs:89 after waiting 2.9E-05s
+2016-09-08 16:13:28.9329|INFO|thread:30|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 150 at GitClient.cs:496
+2016-09-08 16:13:28.9329|INFO|thread:16|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 151 at GitClient.cs:496
+2016-09-08 16:13:28.9329|INFO|thread:46|ExclusiveRepositoryConnection|Creating Commit
+2016-09-08 16:13:28.9479|INFO|thread:46|ExclusiveRepositoryConnection|Creating new commit with 1 file(s). 修改
+
+该文件我修改了。。。。。啊必须阿桑的
+
+2016-09-08 16:13:28.9479|INFO|thread:46|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:13:28.9479|INFO|thread:46|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:13:28.9479|INFO|thread:46|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "10140340105.md" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:13:28.9909|INFO|thread:22|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:13:28.9909|INFO|thread:22|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:13:28.9909|INFO|thread:22|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'commit -F "C:\Users\lenovo\AppData\Local\Temp\33a52a34-6bf4-4be3-8e89-34795b871a29" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:13:29.0289|WARN|thread:42|RepositoryModel|Failed creating exclusive connection for ICommitCreator.cs:89
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:13:29.0289|INFO|thread:42|AsyncReaderWriterLock|Released exclusive scheduler for operation: 149 at ICommitCreator.cs:89 after blocking 0.0957449s
+2016-09-08 16:13:29.0289|INFO|thread:46|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 150 at GitClient.cs:496 after waiting 0.0918177s
+2016-09-08 16:13:29.0289|INFO|thread:35|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 151 at GitClient.cs:496 after waiting 0.0915834s
+2016-09-08 16:13:29.0289|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:13:29.0539|INFO|thread:35|AsyncReaderWriterLock|Released concurrent scheduler for operation: 151 at GitClient.cs:496 after blocking 0.0244224s
+2016-09-08 16:13:29.0539|INFO|thread:46|AsyncReaderWriterLock|Released concurrent scheduler for operation: 150 at GitClient.cs:496 after blocking 0.026163s
+2016-09-08 16:13:33.2050|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 152 at ICommitCreator.cs:89
+2016-09-08 16:13:33.2050|INFO|thread:28|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 152 at ICommitCreator.cs:89 after waiting 4.53E-05s
+2016-09-08 16:13:33.2050|INFO|thread:25|ExclusiveRepositoryConnection|Creating Commit
+2016-09-08 16:13:33.2150|INFO|thread:25|ExclusiveRepositoryConnection|Creating new commit with 1 file(s). 修改
+
+该文件我修改了。。。。。啊必须阿桑的
+
+2016-09-08 16:13:33.2150|INFO|thread:25|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:13:33.2150|INFO|thread:25|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:13:33.2150|INFO|thread:25|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "10140340105.md" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:13:33.2610|INFO|thread:45|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:13:33.2610|INFO|thread:45|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:13:33.2610|INFO|thread:45|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'commit -F "C:\Users\lenovo\AppData\Local\Temp\7cd87a89-5338-42d5-ba4c-3cf15917f07c" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:13:33.2961|WARN|thread:30|RepositoryModel|Failed creating exclusive connection for ICommitCreator.cs:89
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:13:33.2961|INFO|thread:30|AsyncReaderWriterLock|Released exclusive scheduler for operation: 152 at ICommitCreator.cs:89 after blocking 0.0914777s
+2016-09-08 16:13:33.2961|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:13:36.4694|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 153 at ICommitCreator.cs:89
+2016-09-08 16:13:36.4694|INFO|thread:22|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 153 at ICommitCreator.cs:89 after waiting 4.78E-05s
+2016-09-08 16:13:36.4694|INFO|thread:18|ExclusiveRepositoryConnection|Creating Commit
+2016-09-08 16:13:36.4814|INFO|thread:18|ExclusiveRepositoryConnection|Creating new commit with 1 file(s). 修改
+
+该文件我修改了。。。。。啊必须阿桑的
+
+2016-09-08 16:13:36.4814|INFO|thread:18|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:13:36.4814|INFO|thread:18|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:13:36.4814|INFO|thread:18|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "10140340105.md" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:13:36.5255|INFO|thread:45|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:13:36.5255|INFO|thread:45|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:13:36.5255|INFO|thread:45|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'commit -F "C:\Users\lenovo\AppData\Local\Temp\e3e84635-31b3-45e9-a22a-7c2b19b16e81" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:13:36.5625|WARN|thread:35|RepositoryModel|Failed creating exclusive connection for ICommitCreator.cs:89
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:13:36.5625|INFO|thread:35|AsyncReaderWriterLock|Released exclusive scheduler for operation: 153 at ICommitCreator.cs:89 after blocking 0.0936434s
+2016-09-08 16:13:36.5625|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:13:47.3493|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 154 at ICommitCreator.cs:89
+2016-09-08 16:13:47.3493|INFO|thread:11|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 154 at ICommitCreator.cs:89 after waiting 3.25E-05s
+2016-09-08 16:13:47.3553|INFO|thread:25|ExclusiveRepositoryConnection|Creating Commit
+2016-09-08 16:13:47.3553|INFO|thread:25|ExclusiveRepositoryConnection|Creating new commit with 1 file(s). 修改
+
+该文件我修改了。。。。。啊必须阿桑的
+
+2016-09-08 16:13:47.3863|INFO|thread:25|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:13:47.3863|INFO|thread:25|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:13:47.3863|INFO|thread:25|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "10140340105.md" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:13:47.4383|INFO|thread:46|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:13:47.4383|INFO|thread:46|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:13:47.4383|INFO|thread:46|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'commit -F "C:\Users\lenovo\AppData\Local\Temp\6ba48a5c-6f35-4b0a-8be8-0d97a8c4be18" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:13:47.4854|WARN|thread:45|RepositoryModel|Failed creating exclusive connection for ICommitCreator.cs:89
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:13:47.4854|INFO|thread:45|AsyncReaderWriterLock|Released exclusive scheduler for operation: 154 at ICommitCreator.cs:89 after blocking 0.1355407s
+2016-09-08 16:13:47.4854|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:14:27.9039|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 155 at ICommitCreator.cs:89
+2016-09-08 16:14:27.9039|INFO|thread:37|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 155 at ICommitCreator.cs:89 after waiting 4.36E-05s
+2016-09-08 16:14:27.9039|INFO|thread:18|ExclusiveRepositoryConnection|Creating Commit
+2016-09-08 16:14:27.9039|INFO|thread:18|ExclusiveRepositoryConnection|Creating new commit with 1 file(s). icecream
+
+icecream
+
+2016-09-08 16:14:27.9199|INFO|thread:18|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:14:27.9199|INFO|thread:18|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:14:27.9199|INFO|thread:18|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "10140340105.md" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:14:27.9570|INFO|thread:47|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:14:27.9570|INFO|thread:47|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:14:27.9570|INFO|thread:47|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'commit -F "C:\Users\lenovo\AppData\Local\Temp\c2b7620e-ac1f-4fff-bddc-b8a6e3290629" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:14:27.9980|WARN|thread:47|RepositoryModel|Failed creating exclusive connection for ICommitCreator.cs:89
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:14:27.9980|INFO|thread:47|AsyncReaderWriterLock|Released exclusive scheduler for operation: 155 at ICommitCreator.cs:89 after blocking 0.0941497s
+2016-09-08 16:14:27.9980|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:15:09.7015|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 156 at ICommitCreator.cs:89
+2016-09-08 16:15:09.7015|INFO|thread:42|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 156 at ICommitCreator.cs:89 after waiting 3.93E-05s
+2016-09-08 16:15:09.7015|INFO|thread:47|ExclusiveRepositoryConnection|Creating Commit
+2016-09-08 16:15:09.7015|INFO|thread:47|ExclusiveRepositoryConnection|Creating new commit with 1 file(s). icecream
+
+icecream
+
+2016-09-08 16:15:09.7185|INFO|thread:47|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:15:09.7185|INFO|thread:47|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:15:09.7185|INFO|thread:47|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "10140340105.md" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:15:09.8306|INFO|thread:30|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:15:09.8306|INFO|thread:30|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:15:09.8306|INFO|thread:30|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'commit -F "C:\Users\lenovo\AppData\Local\Temp\4e80ce98-33b3-4a87-a030-983237206264" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:15:09.9036|WARN|thread:11|RepositoryModel|Failed creating exclusive connection for ICommitCreator.cs:89
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:15:09.9036|INFO|thread:11|AsyncReaderWriterLock|Released exclusive scheduler for operation: 156 at ICommitCreator.cs:89 after blocking 0.2024052s
+2016-09-08 16:15:09.9036|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:16:20.9763|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 157 at ICommitCreator.cs:89
+2016-09-08 16:16:20.9763|INFO|thread:28|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 157 at ICommitCreator.cs:89 after waiting 5.04E-05s
+2016-09-08 16:16:20.9813|INFO|thread:39|ExclusiveRepositoryConnection|Creating Commit
+2016-09-08 16:16:20.9813|INFO|thread:39|ExclusiveRepositoryConnection|Creating new commit with 1 file(s). 添加10140340105文件
+
+该文件添加了一下项目：
+
+2016-09-08 16:16:20.9813|INFO|thread:39|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:16:20.9813|INFO|thread:39|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:16:20.9813|INFO|thread:39|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "10140340105.md" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:16:21.0443|INFO|thread:46|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:16:21.0443|INFO|thread:46|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:16:21.0443|INFO|thread:46|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'commit -F "C:\Users\lenovo\AppData\Local\Temp\80a2e7de-50fd-4e80-8fcd-ec5bbbe22797" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:16:21.0893|WARN|thread:38|RepositoryModel|Failed creating exclusive connection for ICommitCreator.cs:89
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:16:21.0893|INFO|thread:38|AsyncReaderWriterLock|Released exclusive scheduler for operation: 157 at ICommitCreator.cs:89 after blocking 0.1125568s
+2016-09-08 16:16:21.0893|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:17:28.8318|INFO|thread:47|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 158 at BranchSynchronizer.cs:160
+2016-09-08 16:17:28.8318|INFO|thread:37|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 158 at BranchSynchronizer.cs:160 after waiting 8.21E-05s
+2016-09-08 16:17:28.8569|INFO|thread:35|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:17:28.8569|INFO|thread:35|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:17:28.8569|INFO|thread:35|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'fetch --prune --recurse-submodules=on-demand meflyup ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:17:31.0124|INFO|thread:35|BackgroundFetcher|Got a refresh period for F:\Web编程\dartgate\dartgate\.git of 300 seconds
+2016-09-08 16:17:31.0124|INFO|thread:35|BackgroundFetcher|Added a delay for F:\Web编程\dartgate\dartgate\.git of 15673 milliseconds
+2016-09-08 16:17:31.0324|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 159 at GitClient.cs:622
+2016-09-08 16:17:31.0324|INFO|thread:39|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 159 at GitClient.cs:622 after waiting 4.53E-05s
+2016-09-08 16:17:31.0324|INFO|thread:18|AsyncReaderWriterLock|Released concurrent scheduler for operation: 159 at GitClient.cs:622 after blocking 0.0062843s
+2016-09-08 16:17:31.1225|INFO|thread: 1|NewPullRequestViewModel|No matching pull request found, clearing selection...
+2016-09-08 16:17:31.9991|INFO|thread:45|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-09-08 16:17:31.9991|INFO|thread:45|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 160 at GitClient.cs:199
+2016-09-08 16:17:31.9991|INFO|thread:47|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 160 at GitClient.cs:199 after waiting 5.34E-05s
+2016-09-08 16:17:31.9991|INFO|thread:45|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 161 at RepositoryModel.cs:596
+2016-09-08 16:17:31.9991|INFO|thread:28|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 161 at RepositoryModel.cs:596 after waiting 4.83E-05s
+2016-09-08 16:17:31.9991|INFO|thread:45|AsyncReaderWriterLock|Released concurrent scheduler for operation: 158 at BranchSynchronizer.cs:160 after blocking 3.1670853s
+2016-09-08 16:17:31.9991|INFO|thread:18|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 162 at GitClient.cs:288
+2016-09-08 16:17:31.9991|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 162 at GitClient.cs:288 after waiting 4.23E-05s
+2016-09-08 16:17:31.9991|INFO|thread:18|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 163 at BranchSynchronizer.cs:126
+2016-09-08 16:17:31.9991|INFO|thread:18|AsyncReaderWriterLock|Released concurrent scheduler for operation: 161 at RepositoryModel.cs:596 after blocking 0.0062121s
+2016-09-08 16:17:31.9991|INFO|thread:18|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 163 at BranchSynchronizer.cs:126 after waiting 0.0002121s
+2016-09-08 16:17:32.0171|INFO|thread:18|ConcurrentRepositoryConnection|branch stats: remote not found for 10140340105
+2016-09-08 16:17:32.0171|INFO|thread:18|AsyncReaderWriterLock|Released concurrent scheduler for operation: 163 at BranchSynchronizer.cs:126 after blocking 0.0108123s
+2016-09-08 16:17:32.0171|INFO|thread:42|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:17:32.0171|INFO|thread:42|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:17:32.0171|INFO|thread:42|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:17:32.0381|INFO|thread:39|AsyncReaderWriterLock|Released concurrent scheduler for operation: 160 at GitClient.cs:199 after blocking 0.0389922s
+2016-09-08 16:17:32.0581|INFO|thread:38|ConcurrentRepositoryConnection|Took 37ms to git status
+2016-09-08 16:17:32.0581|INFO|thread:38|ConcurrentRepositoryConnection|Took 38ms to git status and parse output
+2016-09-08 16:17:32.0581|INFO|thread:38|NewCommitViewModel|Took 55ms to load files for F:\Web编程\dartgate\dartgate
+2016-09-08 16:17:32.0581|INFO|thread:38|AsyncReaderWriterLock|Released concurrent scheduler for operation: 162 at GitClient.cs:288 after blocking 0.0557323s
+2016-09-08 16:17:32.0581|INFO|thread:25|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 164 at GitClient.cs:496
+2016-09-08 16:17:32.0581|INFO|thread:47|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 164 at GitClient.cs:496 after waiting 2.39E-05s
+2016-09-08 16:17:32.0732|INFO|thread: 1|NewCommitViewModel|Took 11ms to render file list for F:\Web编程\dartgate\dartgate
+2016-09-08 16:17:32.0732|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 165 at RepositoryViewModel.cs:325
+2016-09-08 16:17:32.0732|INFO|thread:45|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 165 at RepositoryViewModel.cs:325 after waiting 6.15E-05s
+2016-09-08 16:17:32.0972|INFO|thread:25|AsyncReaderWriterLock|Released concurrent scheduler for operation: 164 at GitClient.cs:496 after blocking 0.0269751s
+2016-09-08 16:17:32.0972|INFO|thread:35|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 166 at GitClient.cs:496
+2016-09-08 16:17:32.0972|INFO|thread:35|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 166 at GitClient.cs:496 after waiting 0.0001197s
+2016-09-08 16:17:32.0972|INFO|thread:16|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 167 at GitClient.cs:496
+2016-09-08 16:17:32.0972|INFO|thread:18|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 167 at GitClient.cs:496 after waiting 1.19E-05s
+2016-09-08 16:17:32.0972|INFO|thread:22|AsyncReaderWriterLock|Released concurrent scheduler for operation: 165 at RepositoryViewModel.cs:325 after blocking 0.0249403s
+2016-09-08 16:17:32.1182|INFO|thread:35|AsyncReaderWriterLock|Released concurrent scheduler for operation: 166 at GitClient.cs:496 after blocking 0.0204508s
+2016-09-08 16:17:32.1182|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 167 at GitClient.cs:496 after blocking 0.0213514s
+2016-09-08 16:17:36.5344|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 168 at ICommitCreator.cs:89
+2016-09-08 16:17:36.5344|INFO|thread:45|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 168 at ICommitCreator.cs:89 after waiting 3.97E-05s
+2016-09-08 16:17:36.5344|INFO|thread:46|ExclusiveRepositoryConnection|Creating Commit
+2016-09-08 16:17:36.5444|INFO|thread:46|ExclusiveRepositoryConnection|Creating new commit with 1 file(s). 添加10140340105文件
+
+该文件添加了一下项目：
+
+2016-09-08 16:17:36.5444|INFO|thread:46|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:17:36.5444|INFO|thread:46|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:17:36.5444|INFO|thread:46|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "10140340105.md" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:17:36.5895|INFO|thread:42|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:17:36.5895|INFO|thread:42|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:17:36.5895|INFO|thread:42|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'commit -F "C:\Users\lenovo\AppData\Local\Temp\c03121ef-a8f0-4547-a203-34f413751dfe" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:17:36.6255|WARN|thread:35|RepositoryModel|Failed creating exclusive connection for ICommitCreator.cs:89
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:17:36.6255|INFO|thread:35|AsyncReaderWriterLock|Released exclusive scheduler for operation: 168 at ICommitCreator.cs:89 after blocking 0.091772s
+2016-09-08 16:17:36.6255|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:18:06.4473|INFO|thread:37|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 169 at GitClient.cs:211
+2016-09-08 16:18:06.4473|INFO|thread:38|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 169 at GitClient.cs:211 after waiting 2.99E-05s
+2016-09-08 16:18:06.4473|INFO|thread:37|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 170 at GitClient.cs:134
+2016-09-08 16:18:06.4473|INFO|thread:25|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 170 at GitClient.cs:134 after waiting 8.9E-06s
+2016-09-08 16:18:06.4603|INFO|thread:11|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:18:06.4603|INFO|thread:11|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:18:06.4603|INFO|thread:11|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'log -g --abbrev-commit --pretty=oneline HEAD -n 2500 ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:18:06.4673|INFO|thread:22|AsyncReaderWriterLock|Released concurrent scheduler for operation: 169 at GitClient.cs:211 after blocking 0.0194946s
+2016-09-08 16:18:06.4943|INFO|thread:35|AsyncReaderWriterLock|Released concurrent scheduler for operation: 170 at GitClient.cs:134 after blocking 0.046515s
+2016-09-08 16:18:10.4152|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 171 at GitClient.cs:149
+2016-09-08 16:18:10.4152|INFO|thread:28|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 171 at GitClient.cs:149 after waiting 3.59E-05s
+2016-09-08 16:18:10.4152|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 172 at GitClient.cs:199
+2016-09-08 16:18:10.4152|INFO|thread:25|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 172 at GitClient.cs:199 after waiting 3.46E-05s
+2016-09-08 16:18:10.4172|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 173 at RepositoryModel.cs:596
+2016-09-08 16:18:10.4172|INFO|thread:37|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 173 at RepositoryModel.cs:596 after waiting 0.0001325s
+2016-09-08 16:18:10.4362|INFO|thread:38|AsyncReaderWriterLock|Released concurrent scheduler for operation: 171 at GitClient.cs:149 after blocking 0.0202455s
+2016-09-08 16:18:10.4362|INFO|thread:19|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 174 at GitClient.cs:288
+2016-09-08 16:18:10.4362|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 174 at GitClient.cs:288 after waiting 4.31E-05s
+2016-09-08 16:18:10.4362|INFO|thread:19|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 175 at BranchSynchronizer.cs:126
+2016-09-08 16:18:10.4362|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 173 at RepositoryModel.cs:596 after blocking 0.0226956s
+2016-09-08 16:18:10.4362|INFO|thread:19|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 175 at BranchSynchronizer.cs:126 after waiting 0.000239s
+2016-09-08 16:18:10.4533|INFO|thread:19|ConcurrentRepositoryConnection|branch stats: remote not found for 10140340105
+2016-09-08 16:18:10.4533|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 175 at BranchSynchronizer.cs:126 after blocking 0.013746s
+2016-09-08 16:18:10.4533|INFO|thread:45|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:18:10.4533|INFO|thread:45|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:18:10.4533|INFO|thread:45|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:18:10.4773|INFO|thread:18|AsyncReaderWriterLock|Released concurrent scheduler for operation: 172 at GitClient.cs:199 after blocking 0.0610732s
+2016-09-08 16:18:10.4903|INFO|thread:28|ConcurrentRepositoryConnection|Took 33ms to git status
+2016-09-08 16:18:10.4903|INFO|thread:28|ConcurrentRepositoryConnection|Took 33ms to git status and parse output
+2016-09-08 16:18:10.4903|INFO|thread:28|NewCommitViewModel|Took 53ms to load files for F:\Web编程\dartgate\dartgate
+2016-09-08 16:18:10.4903|INFO|thread:28|AsyncReaderWriterLock|Released concurrent scheduler for operation: 174 at GitClient.cs:288 after blocking 0.0529179s
+2016-09-08 16:18:10.4983|INFO|thread:30|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 176 at GitClient.cs:496
+2016-09-08 16:18:10.4983|INFO|thread:37|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 176 at GitClient.cs:496 after waiting 0.0001064s
+2016-09-08 16:18:10.4983|INFO|thread: 1|NewCommitViewModel|Took 11ms to render file list for F:\Web编程\dartgate\dartgate
+2016-09-08 16:18:10.4983|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 177 at RepositoryViewModel.cs:325
+2016-09-08 16:18:10.4983|INFO|thread:39|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 177 at RepositoryViewModel.cs:325 after waiting 3.12E-05s
+2016-09-08 16:18:10.5323|INFO|thread:22|AsyncReaderWriterLock|Released concurrent scheduler for operation: 177 at RepositoryViewModel.cs:325 after blocking 0.0275819s
+2016-09-08 16:18:10.5323|INFO|thread:37|AsyncReaderWriterLock|Released concurrent scheduler for operation: 176 at GitClient.cs:496 after blocking 0.0336816s
+2016-09-08 16:18:10.5323|INFO|thread:45|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 178 at GitClient.cs:496
+2016-09-08 16:18:10.5323|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 178 at GitClient.cs:496 after waiting 2.35E-05s
+2016-09-08 16:18:10.5323|INFO|thread:38|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 179 at GitClient.cs:496
+2016-09-08 16:18:10.5323|INFO|thread:18|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 179 at GitClient.cs:496 after waiting 2.18E-05s
+2016-09-08 16:18:10.5633|INFO|thread:38|AsyncReaderWriterLock|Released concurrent scheduler for operation: 179 at GitClient.cs:496 after blocking 0.0300401s
+2016-09-08 16:18:10.5633|INFO|thread:45|AsyncReaderWriterLock|Released concurrent scheduler for operation: 178 at GitClient.cs:496 after blocking 0.0314928s
+2016-09-08 16:18:44.8933|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 180 at ICommitCreator.cs:89
+2016-09-08 16:18:44.8933|INFO|thread:35|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 180 at ICommitCreator.cs:89 after waiting 4.06E-05s
+2016-09-08 16:18:44.8933|INFO|thread:25|ExclusiveRepositoryConnection|Creating Commit
+2016-09-08 16:18:44.9043|INFO|thread:25|ExclusiveRepositoryConnection|Creating new commit with 1 file(s). 添加10140340105文件
+
+该文件添加了内容：xxxxxxx
+
+2016-09-08 16:18:44.9043|INFO|thread:25|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:18:44.9043|INFO|thread:25|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:18:44.9043|INFO|thread:25|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "10140340105.md" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:18:44.9724|INFO|thread:38|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:18:44.9724|INFO|thread:38|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:18:44.9724|INFO|thread:38|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'commit -F "C:\Users\lenovo\AppData\Local\Temp\6d3f45c3-f9ba-4f67-8c0b-6862a9a160c0" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:18:45.0074|WARN|thread:45|RepositoryModel|Failed creating exclusive connection for ICommitCreator.cs:89
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:18:45.0074|INFO|thread:45|AsyncReaderWriterLock|Released exclusive scheduler for operation: 180 at ICommitCreator.cs:89 after blocking 0.1139706s
+2016-09-08 16:18:45.0074|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:21:13.9524|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 181 at GitClient.cs:149
+2016-09-08 16:21:13.9524|INFO|thread:39|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 181 at GitClient.cs:149 after waiting 4.66E-05s
+2016-09-08 16:21:13.9524|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 182 at GitClient.cs:199
+2016-09-08 16:21:13.9524|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 183 at RepositoryModel.cs:596
+2016-09-08 16:21:13.9524|INFO|thread:28|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 182 at GitClient.cs:199 after waiting 0.0004952s
+2016-09-08 16:21:13.9524|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 183 at RepositoryModel.cs:596 after waiting 7.82E-05s
+2016-09-08 16:21:13.9794|INFO|thread:19|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 184 at GitClient.cs:288
+2016-09-08 16:21:13.9794|INFO|thread:19|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 185 at BranchSynchronizer.cs:126
+2016-09-08 16:21:13.9794|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 183 at RepositoryModel.cs:596 after blocking 0.0259936s
+2016-09-08 16:21:13.9794|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 184 at GitClient.cs:288 after waiting 0.0002839s
+2016-09-08 16:21:13.9794|INFO|thread:35|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 185 at BranchSynchronizer.cs:126 after waiting 0.0001603s
+2016-09-08 16:21:13.9794|INFO|thread:25|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:21:13.9794|INFO|thread:25|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:21:13.9794|INFO|thread:25|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:21:13.9794|INFO|thread:19|ConcurrentRepositoryConnection|branch stats: remote not found for 10140340105
+2016-09-08 16:21:13.9794|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 185 at BranchSynchronizer.cs:126 after blocking 0.0114512s
+2016-09-08 16:21:14.0044|INFO|thread:42|AsyncReaderWriterLock|Released concurrent scheduler for operation: 182 at GitClient.cs:199 after blocking 0.0512449s
+2016-09-08 16:21:14.0374|INFO|thread:18|AsyncReaderWriterLock|Released concurrent scheduler for operation: 181 at GitClient.cs:149 after blocking 0.0853986s
+2016-09-08 16:21:14.4447|INFO|thread:25|ConcurrentRepositoryConnection|Took 451ms to git status
+2016-09-08 16:21:14.4447|INFO|thread:25|ConcurrentRepositoryConnection|Took 451ms to git status and parse output
+2016-09-08 16:21:14.4477|INFO|thread:25|NewCommitViewModel|Took 469ms to load files for F:\Web编程\dartgate\dartgate
+2016-09-08 16:21:14.4477|INFO|thread:25|AsyncReaderWriterLock|Released concurrent scheduler for operation: 184 at GitClient.cs:288 after blocking 0.4687543s
+2016-09-08 16:21:14.4998|INFO|thread:16|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 186 at GitClient.cs:496
+2016-09-08 16:21:14.4998|INFO|thread:47|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 186 at GitClient.cs:496 after waiting 3.2E-05s
+2016-09-08 16:21:14.4998|INFO|thread: 1|NewCommitViewModel|Took 53ms to render file list for F:\Web编程\dartgate\dartgate
+2016-09-08 16:21:14.4998|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 187 at RepositoryViewModel.cs:325
+2016-09-08 16:21:14.4998|INFO|thread:11|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 187 at RepositoryViewModel.cs:325 after waiting 2.65E-05s
+2016-09-08 16:21:14.5238|INFO|thread:37|AsyncReaderWriterLock|Released concurrent scheduler for operation: 187 at RepositoryViewModel.cs:325 after blocking 0.0216735s
+2016-09-08 16:21:14.5268|INFO|thread:18|AsyncReaderWriterLock|Released concurrent scheduler for operation: 186 at GitClient.cs:496 after blocking 0.027333s
+2016-09-08 16:21:14.5268|INFO|thread:35|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 188 at GitClient.cs:496
+2016-09-08 16:21:14.5268|INFO|thread:39|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 188 at GitClient.cs:496 after waiting 2.18E-05s
+2016-09-08 16:21:14.5268|INFO|thread:42|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 189 at GitClient.cs:496
+2016-09-08 16:21:14.5268|INFO|thread:11|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 189 at GitClient.cs:496 after waiting 1.83E-05s
+2016-09-08 16:21:14.5458|INFO|thread:30|AsyncReaderWriterLock|Released concurrent scheduler for operation: 189 at GitClient.cs:496 after blocking 0.0185028s
+2016-09-08 16:21:14.5458|INFO|thread:45|AsyncReaderWriterLock|Released concurrent scheduler for operation: 188 at GitClient.cs:496 after blocking 0.02136s
+2016-09-08 16:22:44.5238|INFO|thread:11|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 190 at BranchSynchronizer.cs:160
+2016-09-08 16:22:44.5238|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 190 at BranchSynchronizer.cs:160 after waiting 5.55E-05s
+2016-09-08 16:22:44.5498|INFO|thread:18|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:22:44.5498|INFO|thread:18|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:22:44.5498|INFO|thread:18|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'fetch --prune --recurse-submodules=on-demand meflyup ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:22:46.0799|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 191 at GitClient.cs:622
+2016-09-08 16:22:46.0799|INFO|thread:39|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 191 at GitClient.cs:622 after waiting 4.74E-05s
+2016-09-08 16:22:46.0799|INFO|thread:38|AsyncReaderWriterLock|Released concurrent scheduler for operation: 191 at GitClient.cs:622 after blocking 0.0048102s
+2016-09-08 16:22:46.1480|INFO|thread:47|BackgroundFetcher|Got a refresh period for F:\Web编程\dartgate\dartgate\.git of 300 seconds
+2016-09-08 16:22:46.1480|INFO|thread:47|BackgroundFetcher|Added a delay for F:\Web编程\dartgate\dartgate\.git of 12276 milliseconds
+2016-09-08 16:22:46.7504|INFO|thread: 1|NewPullRequestViewModel|No matching pull request found, clearing selection...
+2016-09-08 16:22:47.4119|INFO|thread:46|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-09-08 16:22:47.4119|INFO|thread:46|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 192 at GitClient.cs:199
+2016-09-08 16:22:47.4119|INFO|thread:38|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 192 at GitClient.cs:199 after waiting 4.91E-05s
+2016-09-08 16:22:47.4119|INFO|thread:46|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 193 at RepositoryModel.cs:596
+2016-09-08 16:22:47.4119|INFO|thread:35|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 193 at RepositoryModel.cs:596 after waiting 1.79E-05s
+2016-09-08 16:22:47.4119|INFO|thread:46|AsyncReaderWriterLock|Released concurrent scheduler for operation: 190 at BranchSynchronizer.cs:160 after blocking 2.8885541s
+2016-09-08 16:22:47.4199|INFO|thread:37|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 194 at GitClient.cs:288
+2016-09-08 16:22:47.4199|INFO|thread:45|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 194 at GitClient.cs:288 after waiting 3.42E-05s
+2016-09-08 16:22:47.4199|INFO|thread:37|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 195 at BranchSynchronizer.cs:126
+2016-09-08 16:22:47.4199|INFO|thread:37|AsyncReaderWriterLock|Released concurrent scheduler for operation: 193 at RepositoryModel.cs:596 after blocking 0.0078457s
+2016-09-08 16:22:47.4199|INFO|thread:35|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 195 at BranchSynchronizer.cs:126 after waiting 0.0001321s
+2016-09-08 16:22:47.4199|INFO|thread:35|ConcurrentRepositoryConnection|branch stats: remote not found for 10140340105
+2016-09-08 16:22:47.4199|INFO|thread:35|AsyncReaderWriterLock|Released concurrent scheduler for operation: 195 at BranchSynchronizer.cs:126 after blocking 0.0087361s
+2016-09-08 16:22:47.4199|INFO|thread:28|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:22:47.4199|INFO|thread:28|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:22:47.4199|INFO|thread:28|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:22:47.4469|INFO|thread:39|AsyncReaderWriterLock|Released concurrent scheduler for operation: 192 at GitClient.cs:199 after blocking 0.0351018s
+2016-09-08 16:22:47.4579|INFO|thread:18|ConcurrentRepositoryConnection|Took 25ms to git status
+2016-09-08 16:22:47.4579|INFO|thread:18|ConcurrentRepositoryConnection|Took 25ms to git status and parse output
+2016-09-08 16:22:47.4579|INFO|thread:18|NewCommitViewModel|Took 39ms to load files for F:\Web编程\dartgate\dartgate
+2016-09-08 16:22:47.4579|INFO|thread:18|AsyncReaderWriterLock|Released concurrent scheduler for operation: 194 at GitClient.cs:288 after blocking 0.039856s
+2016-09-08 16:22:47.4579|INFO|thread:25|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 196 at GitClient.cs:496
+2016-09-08 16:22:47.4579|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 196 at GitClient.cs:496 after waiting 1.96E-05s
+2016-09-08 16:22:47.4800|INFO|thread:25|AsyncReaderWriterLock|Released concurrent scheduler for operation: 196 at GitClient.cs:496 after blocking 0.0174812s
+2016-09-08 16:22:47.4800|INFO|thread:37|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 197 at GitClient.cs:496
+2016-09-08 16:22:47.4800|INFO|thread:47|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 197 at GitClient.cs:496 after waiting 1.92E-05s
+2016-09-08 16:22:47.4800|INFO|thread:45|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 198 at GitClient.cs:496
+2016-09-08 16:22:47.4800|INFO|thread:18|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 198 at GitClient.cs:496 after waiting 1.88E-05s
+2016-09-08 16:22:47.5080|INFO|thread:37|AsyncReaderWriterLock|Released concurrent scheduler for operation: 197 at GitClient.cs:496 after blocking 0.0276213s
+2016-09-08 16:22:47.5080|INFO|thread:39|AsyncReaderWriterLock|Released concurrent scheduler for operation: 198 at GitClient.cs:496 after blocking 0.0273625s
+2016-09-08 16:22:47.5150|INFO|thread: 1|NewCommitViewModel|Took 54ms to render file list for F:\Web编程\dartgate\dartgate
+2016-09-08 16:22:47.5150|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 199 at RepositoryViewModel.cs:325
+2016-09-08 16:22:47.5150|INFO|thread:42|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 199 at RepositoryViewModel.cs:325 after waiting 4.31E-05s
+2016-09-08 16:22:47.5320|INFO|thread:25|AsyncReaderWriterLock|Released concurrent scheduler for operation: 199 at RepositoryViewModel.cs:325 after blocking 0.0167704s
+2016-09-08 16:23:23.4351|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 200 at GitClient.cs:149
+2016-09-08 16:23:23.4351|INFO|thread:37|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 200 at GitClient.cs:149 after waiting 4.78E-05s
+2016-09-08 16:23:23.4351|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 201 at GitClient.cs:199
+2016-09-08 16:23:23.4351|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 202 at RepositoryModel.cs:596
+2016-09-08 16:23:23.4351|INFO|thread:38|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 201 at GitClient.cs:199 after waiting 0.000567s
+2016-09-08 16:23:23.4351|INFO|thread:46|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 202 at RepositoryModel.cs:596 after waiting 8.55E-05s
+2016-09-08 16:23:23.4351|INFO|thread:35|AsyncReaderWriterLock|Released concurrent scheduler for operation: 200 at GitClient.cs:149 after blocking 0.0091629s
+2016-09-08 16:23:23.4481|INFO|thread:22|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 203 at GitClient.cs:288
+2016-09-08 16:23:23.4481|INFO|thread:22|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 204 at BranchSynchronizer.cs:126
+2016-09-08 16:23:23.4481|INFO|thread:22|AsyncReaderWriterLock|Released concurrent scheduler for operation: 202 at RepositoryModel.cs:596 after blocking 0.0125405s
+2016-09-08 16:23:23.4481|INFO|thread:46|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 203 at GitClient.cs:288 after waiting 0.0003844s
+2016-09-08 16:23:23.4481|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 204 at BranchSynchronizer.cs:126 after waiting 0.000292s
+2016-09-08 16:23:23.4481|INFO|thread:22|ConcurrentRepositoryConnection|branch stats: remote not found for 10140340105
+2016-09-08 16:23:23.4481|INFO|thread:22|AsyncReaderWriterLock|Released concurrent scheduler for operation: 204 at BranchSynchronizer.cs:126 after blocking 0.0096042s
+2016-09-08 16:23:23.4481|INFO|thread:35|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:23:23.4481|INFO|thread:35|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:23:23.4481|INFO|thread:35|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:23:23.5042|INFO|thread:45|ConcurrentRepositoryConnection|Took 41ms to git status
+2016-09-08 16:23:23.5042|INFO|thread:45|ConcurrentRepositoryConnection|Took 41ms to git status and parse output
+2016-09-08 16:23:23.5042|INFO|thread:45|NewCommitViewModel|Took 60ms to load files for F:\Web编程\dartgate\dartgate
+2016-09-08 16:23:23.5042|INFO|thread:45|AsyncReaderWriterLock|Released concurrent scheduler for operation: 203 at GitClient.cs:288 after blocking 0.060374s
+2016-09-08 16:23:23.5152|INFO|thread:37|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 205 at GitClient.cs:496
+2016-09-08 16:23:23.5152|INFO|thread:18|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 205 at GitClient.cs:496 after waiting 6.2E-05s
+2016-09-08 16:23:23.5152|INFO|thread: 1|NewCommitViewModel|Took 10ms to render file list for F:\Web编程\dartgate\dartgate
+2016-09-08 16:23:23.5372|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 205 at GitClient.cs:496 after blocking 0.021812s
+2016-09-08 16:23:23.5372|INFO|thread:47|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 206 at GitClient.cs:496
+2016-09-08 16:23:23.5372|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 206 at GitClient.cs:496 after waiting 2.22E-05s
+2016-09-08 16:23:23.5372|INFO|thread:25|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 207 at GitClient.cs:496
+2016-09-08 16:23:23.5372|INFO|thread:37|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 207 at GitClient.cs:496 after waiting 2.05E-05s
+2016-09-08 16:23:23.5532|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 201 at GitClient.cs:199 after blocking 0.1168753s
+2016-09-08 16:23:23.5532|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 208 at RepositoryViewModel.cs:325
+2016-09-08 16:23:23.5532|INFO|thread:18|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 208 at RepositoryViewModel.cs:325 after waiting 2.86E-05s
+2016-09-08 16:23:23.5692|INFO|thread:11|AsyncReaderWriterLock|Released concurrent scheduler for operation: 207 at GitClient.cs:496 after blocking 0.030664s
+2016-09-08 16:23:23.5742|INFO|thread:47|AsyncReaderWriterLock|Released concurrent scheduler for operation: 206 at GitClient.cs:496 after blocking 0.0361748s
+2016-09-08 16:23:23.6893|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 208 at RepositoryViewModel.cs:325 after blocking 0.1342423s
+2016-09-08 16:23:25.3336|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 209 at ICommitCreator.cs:89
+2016-09-08 16:23:25.3336|INFO|thread:16|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 209 at ICommitCreator.cs:89 after waiting 6.15E-05s
+2016-09-08 16:23:25.3336|INFO|thread:22|ExclusiveRepositoryConnection|Creating Commit
+2016-09-08 16:23:25.3406|INFO|thread:22|ExclusiveRepositoryConnection|Creating new commit with 1 file(s). 添加10140340105文件
+
+该文件添加了内容：xxxxxxx
+
+2016-09-08 16:23:25.3406|INFO|thread:22|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:23:25.3406|INFO|thread:22|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:23:25.3406|INFO|thread:22|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "10140340105.md" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:23:25.4006|INFO|thread:22|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:23:25.4006|INFO|thread:22|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:23:25.4006|INFO|thread:22|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'commit -F "C:\Users\lenovo\AppData\Local\Temp\74dd37c4-88c2-41ad-a875-c343c186fb0f" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:23:25.4477|WARN|thread:18|RepositoryModel|Failed creating exclusive connection for ICommitCreator.cs:89
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:23:25.4477|INFO|thread:18|AsyncReaderWriterLock|Released exclusive scheduler for operation: 209 at ICommitCreator.cs:89 after blocking 0.1138975s
+2016-09-08 16:23:25.4477|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:23:29.2656|INFO|thread: 1|PortablePackageManager|Already extracted posh-git.7z, returning 100%
+2016-09-08 16:23:29.2656|INFO|thread: 1|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:23:29.2656|INFO|thread: 1|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364\NativeBinaries/x86;C:\Python31\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\Lenovo\Lenovo Home\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files\Common Files\Autodesk Shared\;D:\搜狐影音\5.0.2.23
+2016-09-08 16:23:29.2656|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\windows\System32\WindowsPowerShell\v1.0\Powershell.exe', Args: '-NoExit -ExecutionPolicy Unrestricted -File "C:\Users\lenovo\AppData\Local\GitHub\PoshGit_869d4c5159797755bc04749db47b166136e59132\profile.example.ps1"', Working Directory: F:\Web编程\dartgate\dartgate
+2016-09-08 16:23:49.5935|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 210 at GitClient.cs:149
+2016-09-08 16:23:49.5935|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 211 at GitClient.cs:199
+2016-09-08 16:23:49.5935|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 212 at RepositoryModel.cs:596
+2016-09-08 16:23:49.5935|INFO|thread:42|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 210 at GitClient.cs:149 after waiting 0.0037774s
+2016-09-08 16:23:49.5935|INFO|thread:45|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 211 at GitClient.cs:199 after waiting 0.0034443s
+2016-09-08 16:23:49.5935|INFO|thread:18|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 212 at RepositoryModel.cs:596 after waiting 0.0030731s
+2016-09-08 16:23:49.6116|INFO|thread:22|AsyncReaderWriterLock|Released concurrent scheduler for operation: 210 at GitClient.cs:149 after blocking 0.0147326s
+2016-09-08 16:23:49.6116|INFO|thread:19|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 213 at GitClient.cs:288
+2016-09-08 16:23:49.6116|INFO|thread:42|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 213 at GitClient.cs:288 after waiting 1.45E-05s
+2016-09-08 16:23:49.6116|INFO|thread:19|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 214 at BranchSynchronizer.cs:126
+2016-09-08 16:23:49.6116|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 212 at RepositoryModel.cs:596 after blocking 0.0148019s
+2016-09-08 16:23:49.6116|INFO|thread:18|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 214 at BranchSynchronizer.cs:126 after waiting 7.39E-05s
+2016-09-08 16:23:49.6266|INFO|thread:19|ConcurrentRepositoryConnection|branch stats: remote not found for 10140340105
+2016-09-08 16:23:49.6266|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 214 at BranchSynchronizer.cs:126 after blocking 0.0148849s
+2016-09-08 16:23:49.6386|INFO|thread:18|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:23:49.6386|INFO|thread:18|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:23:49.6386|INFO|thread:18|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:23:49.7176|INFO|thread:30|AsyncReaderWriterLock|Released concurrent scheduler for operation: 211 at GitClient.cs:199 after blocking 0.1201425s
+2016-09-08 16:23:49.7346|INFO|thread:18|ConcurrentRepositoryConnection|Took 39ms to git status
+2016-09-08 16:23:49.7346|INFO|thread:18|ConcurrentRepositoryConnection|Took 39ms to git status and parse output
+2016-09-08 16:23:49.7346|INFO|thread:18|NewCommitViewModel|Took 126ms to load files for F:\Web编程\dartgate\dartgate
+2016-09-08 16:23:49.7346|INFO|thread:18|AsyncReaderWriterLock|Released concurrent scheduler for operation: 213 at GitClient.cs:288 after blocking 0.1265411s
+2016-09-08 16:23:49.7346|INFO|thread:39|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 215 at GitClient.cs:496
+2016-09-08 16:23:49.7346|INFO|thread:25|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 215 at GitClient.cs:496 after waiting 4.14E-05s
+2016-09-08 16:23:49.7447|INFO|thread: 1|NewCommitViewModel|Took 5ms to render file list for F:\Web编程\dartgate\dartgate
+2016-09-08 16:23:49.7447|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 216 at RepositoryViewModel.cs:325
+2016-09-08 16:23:49.7447|INFO|thread:28|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 216 at RepositoryViewModel.cs:325 after waiting 3.12E-05s
+2016-09-08 16:23:49.7717|INFO|thread:45|AsyncReaderWriterLock|Released concurrent scheduler for operation: 216 at RepositoryViewModel.cs:325 after blocking 0.0270444s
+2016-09-08 16:23:49.7717|INFO|thread:39|AsyncReaderWriterLock|Released concurrent scheduler for operation: 215 at GitClient.cs:496 after blocking 0.0327967s
+2016-09-08 16:23:49.7717|INFO|thread:35|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 217 at GitClient.cs:496
+2016-09-08 16:23:49.7717|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 217 at GitClient.cs:496 after waiting 3.25E-05s
+2016-09-08 16:23:49.7717|INFO|thread:30|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 218 at GitClient.cs:496
+2016-09-08 16:23:49.7717|INFO|thread:45|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 218 at GitClient.cs:496 after waiting 1.66E-05s
+2016-09-08 16:23:49.8017|INFO|thread:28|AsyncReaderWriterLock|Released concurrent scheduler for operation: 218 at GitClient.cs:496 after blocking 0.0268973s
+2016-09-08 16:23:49.8077|INFO|thread:35|AsyncReaderWriterLock|Released concurrent scheduler for operation: 217 at GitClient.cs:496 after blocking 0.0333245s
+2016-09-08 16:25:47.3930|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 219 at GitClient.cs:149
+2016-09-08 16:25:47.3930|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 219 at GitClient.cs:149 after waiting 4.66E-05s
+2016-09-08 16:25:47.3930|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 220 at GitClient.cs:199
+2016-09-08 16:25:47.3930|INFO|thread:47|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 220 at GitClient.cs:199 after waiting 2.22E-05s
+2016-09-08 16:25:47.3930|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 221 at RepositoryModel.cs:596
+2016-09-08 16:25:47.3930|INFO|thread:19|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 221 at RepositoryModel.cs:596 after waiting 0.0020916s
+2016-09-08 16:25:47.4091|INFO|thread:19|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 222 at GitClient.cs:288
+2016-09-08 16:25:47.4091|INFO|thread:37|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 222 at GitClient.cs:288 after waiting 7.52E-05s
+2016-09-08 16:25:47.4091|INFO|thread:19|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 223 at BranchSynchronizer.cs:126
+2016-09-08 16:25:47.4091|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 221 at RepositoryModel.cs:596 after blocking 0.0134326s
+2016-09-08 16:25:47.4091|INFO|thread:19|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 223 at BranchSynchronizer.cs:126 after waiting 0.000127s
+2016-09-08 16:25:47.4241|INFO|thread:38|AsyncReaderWriterLock|Released concurrent scheduler for operation: 219 at GitClient.cs:149 after blocking 0.0306315s
+2016-09-08 16:25:47.4431|INFO|thread:16|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:25:47.4431|INFO|thread:16|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:25:47.4431|INFO|thread:16|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:25:47.4431|INFO|thread:35|ConcurrentRepositoryConnection|branch stats: remote not found for 10140340105
+2016-09-08 16:25:47.4431|INFO|thread:35|AsyncReaderWriterLock|Released concurrent scheduler for operation: 223 at BranchSynchronizer.cs:126 after blocking 0.0357963s
+2016-09-08 16:25:47.4691|INFO|thread:28|AsyncReaderWriterLock|Released concurrent scheduler for operation: 220 at GitClient.cs:199 after blocking 0.0757713s
+2016-09-08 16:25:47.4921|INFO|thread:16|ConcurrentRepositoryConnection|Took 45ms to git status
+2016-09-08 16:25:47.4921|INFO|thread:16|ConcurrentRepositoryConnection|Took 45ms to git status and parse output
+2016-09-08 16:25:47.5001|INFO|thread:16|NewCommitViewModel|Took 90ms to load files for F:\Web编程\dartgate\dartgate
+2016-09-08 16:25:47.5001|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 222 at GitClient.cs:288 after blocking 0.0901204s
+2016-09-08 16:25:47.5001|INFO|thread:39|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 224 at GitClient.cs:496
+2016-09-08 16:25:47.5001|INFO|thread:25|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 224 at GitClient.cs:496 after waiting 2.39E-05s
+2016-09-08 16:25:47.5001|INFO|thread: 1|NewCommitViewModel|Took 8ms to render file list for F:\Web编程\dartgate\dartgate
+2016-09-08 16:25:47.5001|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 225 at RepositoryViewModel.cs:325
+2016-09-08 16:25:47.5001|INFO|thread:35|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 225 at RepositoryViewModel.cs:325 after waiting 3.72E-05s
+2016-09-08 16:25:47.5301|INFO|thread:39|AsyncReaderWriterLock|Released concurrent scheduler for operation: 224 at GitClient.cs:496 after blocking 0.0283308s
+2016-09-08 16:25:47.5301|INFO|thread:16|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 226 at GitClient.cs:496
+2016-09-08 16:25:47.5301|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 226 at GitClient.cs:496 after waiting 0.0001223s
+2016-09-08 16:25:47.5301|INFO|thread:45|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 227 at GitClient.cs:496
+2016-09-08 16:25:47.5301|INFO|thread:45|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 227 at GitClient.cs:496 after waiting 8.98E-05s
+2016-09-08 16:25:47.5301|INFO|thread:38|AsyncReaderWriterLock|Released concurrent scheduler for operation: 225 at RepositoryViewModel.cs:325 after blocking 0.0260839s
+2016-09-08 16:25:47.5552|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 226 at GitClient.cs:496 after blocking 0.0235616s
+2016-09-08 16:25:47.5592|INFO|thread:45|AsyncReaderWriterLock|Released concurrent scheduler for operation: 227 at GitClient.cs:496 after blocking 0.0272984s
+2016-09-08 16:25:49.1043|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 228 at GitClient.cs:149
+2016-09-08 16:25:49.1043|INFO|thread:11|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 228 at GitClient.cs:149 after waiting 0.0001458s
+2016-09-08 16:25:49.1043|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 229 at GitClient.cs:199
+2016-09-08 16:25:49.1043|INFO|thread:42|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 229 at GitClient.cs:199 after waiting 0.0002125s
+2016-09-08 16:25:49.1043|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 230 at RepositoryModel.cs:596
+2016-09-08 16:25:49.1043|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 230 at RepositoryModel.cs:596 after waiting 0.0023456s
+2016-09-08 16:25:49.1043|INFO|thread:37|AsyncReaderWriterLock|Released concurrent scheduler for operation: 228 at GitClient.cs:149 after blocking 0.0112276s
+2016-09-08 16:25:49.1043|INFO|thread:46|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 231 at GitClient.cs:288
+2016-09-08 16:25:49.1043|INFO|thread:46|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 232 at BranchSynchronizer.cs:126
+2016-09-08 16:25:49.1043|INFO|thread:46|AsyncReaderWriterLock|Released concurrent scheduler for operation: 230 at RepositoryModel.cs:596 after blocking 0.0101593s
+2016-09-08 16:25:49.1043|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 231 at GitClient.cs:288 after waiting 0.0003998s
+2016-09-08 16:25:49.1263|INFO|thread:38|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 232 at BranchSynchronizer.cs:126 after waiting 0.0067885s
+2016-09-08 16:25:49.1263|INFO|thread:46|ConcurrentRepositoryConnection|branch stats: remote not found for 10140340105
+2016-09-08 16:25:49.1263|INFO|thread:46|AsyncReaderWriterLock|Released concurrent scheduler for operation: 232 at BranchSynchronizer.cs:126 after blocking 0.0080805s
+2016-09-08 16:25:49.1263|INFO|thread:37|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:25:49.1263|INFO|thread:37|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:25:49.1263|INFO|thread:37|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:25:49.1623|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 229 at GitClient.cs:199 after blocking 0.0557353s
+2016-09-08 16:25:49.1713|INFO|thread:22|ConcurrentRepositoryConnection|Took 33ms to git status
+2016-09-08 16:25:49.1713|INFO|thread:22|ConcurrentRepositoryConnection|Took 34ms to git status and parse output
+2016-09-08 16:25:49.1713|INFO|thread:22|NewCommitViewModel|Took 54ms to load files for F:\Web编程\dartgate\dartgate
+2016-09-08 16:25:49.1713|INFO|thread:22|AsyncReaderWriterLock|Released concurrent scheduler for operation: 231 at GitClient.cs:288 after blocking 0.0474811s
+2016-09-08 16:25:49.1873|INFO|thread:25|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 233 at GitClient.cs:496
+2016-09-08 16:25:49.1873|INFO|thread:38|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 233 at GitClient.cs:496 after waiting 2.56E-05s
+2016-09-08 16:25:49.2093|INFO|thread:18|AsyncReaderWriterLock|Released concurrent scheduler for operation: 233 at GitClient.cs:496 after blocking 0.0211248s
+2016-09-08 16:25:49.2093|INFO|thread:11|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 234 at GitClient.cs:496
+2016-09-08 16:25:49.2093|INFO|thread:47|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 234 at GitClient.cs:496 after waiting 2.18E-05s
+2016-09-08 16:25:49.2093|INFO|thread:28|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 235 at GitClient.cs:496
+2016-09-08 16:25:49.2093|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 235 at GitClient.cs:496 after waiting 2.18E-05s
+2016-09-08 16:25:49.2093|INFO|thread: 1|NewCommitViewModel|Took 36ms to render file list for F:\Web编程\dartgate\dartgate
+2016-09-08 16:25:49.2093|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 236 at RepositoryViewModel.cs:325
+2016-09-08 16:25:49.2093|INFO|thread:37|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 236 at RepositoryViewModel.cs:325 after waiting 0.0004558s
+2016-09-08 16:25:49.2363|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 236 at RepositoryViewModel.cs:325 after blocking 0.0256767s
+2016-09-08 16:25:49.2363|INFO|thread:28|AsyncReaderWriterLock|Released concurrent scheduler for operation: 235 at GitClient.cs:496 after blocking 0.0303117s
+2016-09-08 16:25:49.2363|INFO|thread:11|AsyncReaderWriterLock|Released concurrent scheduler for operation: 234 at GitClient.cs:496 after blocking 0.0308655s
+2016-09-08 16:27:56.8181|INFO|thread:11|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 237 at BranchSynchronizer.cs:160
+2016-09-08 16:27:56.8181|INFO|thread:45|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 237 at BranchSynchronizer.cs:160 after waiting 7.82E-05s
+2016-09-08 16:27:56.8481|INFO|thread:47|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:27:56.8481|INFO|thread:47|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:27:56.8481|INFO|thread:47|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'fetch --prune --recurse-submodules=on-demand meflyup ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:27:58.3572|INFO|thread:28|BackgroundFetcher|Got a refresh period for F:\Web编程\dartgate\dartgate\.git of 300 seconds
+2016-09-08 16:27:58.3572|INFO|thread:28|BackgroundFetcher|Added a delay for F:\Web编程\dartgate\dartgate\.git of 27338 milliseconds
+2016-09-08 16:27:58.4582|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 238 at GitClient.cs:622
+2016-09-08 16:27:58.4582|INFO|thread:42|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 238 at GitClient.cs:622 after waiting 4.19E-05s
+2016-09-08 16:27:58.4633|INFO|thread:47|AsyncReaderWriterLock|Released concurrent scheduler for operation: 238 at GitClient.cs:622 after blocking 0.0053777s
+2016-09-08 16:27:59.1877|INFO|thread: 1|NewPullRequestViewModel|No matching pull request found, clearing selection...
+2016-09-08 16:28:01.3653|INFO|thread:16|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-09-08 16:28:01.3653|INFO|thread:16|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 239 at GitClient.cs:199
+2016-09-08 16:28:01.3653|INFO|thread:42|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 239 at GitClient.cs:199 after waiting 3.8E-05s
+2016-09-08 16:28:01.3653|INFO|thread:16|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 240 at RepositoryModel.cs:596
+2016-09-08 16:28:01.3653|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 240 at RepositoryModel.cs:596 after waiting 1.96E-05s
+2016-09-08 16:28:01.3653|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 237 at BranchSynchronizer.cs:160 after blocking 4.54752s
+2016-09-08 16:28:01.3713|INFO|thread:18|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 241 at GitClient.cs:288
+2016-09-08 16:28:01.3713|INFO|thread:35|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 241 at GitClient.cs:288 after waiting 3.16E-05s
+2016-09-08 16:28:01.3713|INFO|thread:18|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 242 at BranchSynchronizer.cs:126
+2016-09-08 16:28:01.3713|INFO|thread:18|AsyncReaderWriterLock|Released concurrent scheduler for operation: 240 at RepositoryModel.cs:596 after blocking 0.0062386s
+2016-09-08 16:28:01.3713|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 242 at BranchSynchronizer.cs:126 after waiting 0.0001265s
+2016-09-08 16:28:01.3713|INFO|thread:30|ConcurrentRepositoryConnection|branch stats: remote not found for 10140340105
+2016-09-08 16:28:01.3713|INFO|thread:30|AsyncReaderWriterLock|Released concurrent scheduler for operation: 242 at BranchSynchronizer.cs:126 after blocking 0.0083918s
+2016-09-08 16:28:01.3713|INFO|thread:38|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:28:01.3713|INFO|thread:38|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:28:01.3713|INFO|thread:38|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:28:01.4023|INFO|thread:11|AsyncReaderWriterLock|Released concurrent scheduler for operation: 239 at GitClient.cs:199 after blocking 0.0367354s
+2016-09-08 16:28:01.4023|INFO|thread:28|ConcurrentRepositoryConnection|Took 25ms to git status
+2016-09-08 16:28:01.4023|INFO|thread:28|ConcurrentRepositoryConnection|Took 25ms to git status and parse output
+2016-09-08 16:28:01.4023|INFO|thread:28|NewCommitViewModel|Took 40ms to load files for F:\Web编程\dartgate\dartgate
+2016-09-08 16:28:01.4023|INFO|thread:28|AsyncReaderWriterLock|Released concurrent scheduler for operation: 241 at GitClient.cs:288 after blocking 0.0404098s
+2016-09-08 16:28:01.4023|INFO|thread:22|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 243 at GitClient.cs:496
+2016-09-08 16:28:01.4023|INFO|thread:39|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 243 at GitClient.cs:496 after waiting 2.26E-05s
+2016-09-08 16:28:01.4023|INFO|thread: 1|NewCommitViewModel|Took 3ms to render file list for F:\Web编程\dartgate\dartgate
+2016-09-08 16:28:01.4163|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 244 at RepositoryViewModel.cs:325
+2016-09-08 16:28:01.4163|INFO|thread:38|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 244 at RepositoryViewModel.cs:325 after waiting 2.65E-05s
+2016-09-08 16:28:01.4343|INFO|thread:22|AsyncReaderWriterLock|Released concurrent scheduler for operation: 243 at GitClient.cs:496 after blocking 0.0209319s
+2016-09-08 16:28:01.4343|INFO|thread:19|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 245 at GitClient.cs:496
+2016-09-08 16:28:01.4343|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 245 at GitClient.cs:496 after waiting 2.52E-05s
+2016-09-08 16:28:01.4343|INFO|thread:25|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 246 at GitClient.cs:496
+2016-09-08 16:28:01.4343|INFO|thread:25|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 246 at GitClient.cs:496 after waiting 0.0001026s
+2016-09-08 16:28:01.4524|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 245 at GitClient.cs:496 after blocking 0.0170899s
+2016-09-08 16:28:01.4524|INFO|thread:25|AsyncReaderWriterLock|Released concurrent scheduler for operation: 246 at GitClient.cs:496 after blocking 0.0199423s
+2016-09-08 16:28:01.5184|INFO|thread:42|AsyncReaderWriterLock|Released concurrent scheduler for operation: 244 at RepositoryViewModel.cs:325 after blocking 0.1027238s
+2016-09-08 16:32:02.1929|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 247 at GitClient.cs:149
+2016-09-08 16:32:02.1929|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 247 at GitClient.cs:149 after waiting 3.89E-05s
+2016-09-08 16:32:02.1929|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 248 at GitClient.cs:199
+2016-09-08 16:32:02.1929|INFO|thread:38|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 248 at GitClient.cs:199 after waiting 2.18E-05s
+2016-09-08 16:32:02.1929|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 249 at RepositoryModel.cs:596
+2016-09-08 16:32:02.1929|INFO|thread:18|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 249 at RepositoryModel.cs:596 after waiting 8.29E-05s
+2016-09-08 16:32:02.2119|INFO|thread:37|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 250 at GitClient.cs:288
+2016-09-08 16:32:02.2119|INFO|thread:35|AsyncReaderWriterLock|Released concurrent scheduler for operation: 247 at GitClient.cs:149 after blocking 0.01888s
+2016-09-08 16:32:02.2159|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 250 at GitClient.cs:288 after waiting 0.0041875s
+2016-09-08 16:32:02.2159|INFO|thread:37|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 251 at BranchSynchronizer.cs:126
+2016-09-08 16:32:02.2159|INFO|thread:37|AsyncReaderWriterLock|Released concurrent scheduler for operation: 249 at RepositoryModel.cs:596 after blocking 0.0222196s
+2016-09-08 16:32:02.2159|INFO|thread:18|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 251 at BranchSynchronizer.cs:126 after waiting 0.000198s
+2016-09-08 16:32:02.2599|INFO|thread:30|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:32:02.2599|INFO|thread:30|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:32:02.2599|INFO|thread:30|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:32:02.2609|INFO|thread:37|ConcurrentRepositoryConnection|branch stats: remote not found for 10140340105
+2016-09-08 16:32:02.2609|INFO|thread:37|AsyncReaderWriterLock|Released concurrent scheduler for operation: 251 at BranchSynchronizer.cs:126 after blocking 0.0445833s
+2016-09-08 16:32:02.2900|INFO|thread:11|AsyncReaderWriterLock|Released concurrent scheduler for operation: 248 at GitClient.cs:199 after blocking 0.0963504s
+2016-09-08 16:32:02.3000|INFO|thread:28|ConcurrentRepositoryConnection|Took 36ms to git status
+2016-09-08 16:32:02.3000|INFO|thread:28|ConcurrentRepositoryConnection|Took 37ms to git status and parse output
+2016-09-08 16:32:02.3000|INFO|thread:28|NewCommitViewModel|Took 92ms to load files for F:\Web编程\dartgate\dartgate
+2016-09-08 16:32:02.3000|INFO|thread:28|AsyncReaderWriterLock|Released concurrent scheduler for operation: 250 at GitClient.cs:288 after blocking 0.087811s
+2016-09-08 16:32:02.3190|INFO|thread:37|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 252 at GitClient.cs:496
+2016-09-08 16:32:02.3190|INFO|thread:18|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 252 at GitClient.cs:496 after waiting 2.3E-05s
+2016-09-08 16:32:02.3280|INFO|thread:46|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 253 at GitClient.cs:496
+2016-09-08 16:32:02.3280|INFO|thread:47|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 253 at GitClient.cs:496 after waiting 2.73E-05s
+2016-09-08 16:32:02.3280|INFO|thread:16|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 254 at GitClient.cs:496
+2016-09-08 16:32:02.3280|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 254 at GitClient.cs:496 after waiting 0.0002595s
+2016-09-08 16:32:02.3390|INFO|thread: 1|NewCommitViewModel|Took 35ms to render file list for F:\Web编程\dartgate\dartgate
+2016-09-08 16:32:02.3390|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 255 at RepositoryViewModel.cs:325
+2016-09-08 16:32:02.3390|INFO|thread:46|AsyncReaderWriterLock|Released concurrent scheduler for operation: 253 at GitClient.cs:496 after blocking 0.0117882s
+2016-09-08 16:32:02.3390|INFO|thread:46|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 255 at RepositoryViewModel.cs:325 after waiting 0.0005046s
+2016-09-08 16:32:02.3390|INFO|thread:37|AsyncReaderWriterLock|Released concurrent scheduler for operation: 252 at GitClient.cs:496 after blocking 0.0277697s
+2016-09-08 16:32:02.3390|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 254 at GitClient.cs:496 after blocking 0.0119794s
+2016-09-08 16:32:02.3560|INFO|thread:42|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 256 at GitClient.cs:496
+2016-09-08 16:32:02.3560|INFO|thread:39|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 256 at GitClient.cs:496 after waiting 2.9E-05s
+2016-09-08 16:32:02.3560|INFO|thread:28|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 257 at GitClient.cs:496
+2016-09-08 16:32:02.3560|INFO|thread:25|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 257 at GitClient.cs:496 after waiting 2.56E-05s
+2016-09-08 16:32:02.3560|INFO|thread:42|AsyncReaderWriterLock|Released concurrent scheduler for operation: 256 at GitClient.cs:496 after blocking 0.0104232s
+2016-09-08 16:32:02.3560|INFO|thread:47|AsyncReaderWriterLock|Released concurrent scheduler for operation: 255 at RepositoryViewModel.cs:325 after blocking 0.0262814s
+2016-09-08 16:32:02.3560|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 257 at GitClient.cs:496 after blocking 0.0116043s
+2016-09-08 16:32:11.4056|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 258 at ICommitCreator.cs:89
+2016-09-08 16:32:11.4056|INFO|thread:47|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 258 at ICommitCreator.cs:89 after waiting 4.83E-05s
+2016-09-08 16:32:11.4056|INFO|thread:22|ExclusiveRepositoryConnection|Creating Commit
+2016-09-08 16:32:11.4216|INFO|thread:22|ExclusiveRepositoryConnection|Creating new commit with 1 file(s). 添加10140340105文件
+
+该文件添加了内容：xxxxxxx
+
+2016-09-08 16:32:11.4216|INFO|thread:22|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:32:11.4216|INFO|thread:22|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:32:11.4216|INFO|thread:22|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "10140340105 (2).md" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:32:11.4647|INFO|thread:19|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:32:11.4647|INFO|thread:19|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:32:11.4647|INFO|thread:19|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'commit -F "C:\Users\lenovo\AppData\Local\Temp\e82b1f35-c7b0-4cac-a5df-486742710359" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:32:11.5067|WARN|thread:38|RepositoryModel|Failed creating exclusive connection for ICommitCreator.cs:89
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:32:11.5067|INFO|thread:38|AsyncReaderWriterLock|Released exclusive scheduler for operation: 258 at ICommitCreator.cs:89 after blocking 0.1007865s
+2016-09-08 16:32:11.5067|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:33:06.7691|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 259 at GitClient.cs:149
+2016-09-08 16:33:06.7691|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 259 at GitClient.cs:149 after waiting 0.0004066s
+2016-09-08 16:33:06.7691|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 260 at GitClient.cs:199
+2016-09-08 16:33:06.7852|INFO|thread:46|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 260 at GitClient.cs:199 after waiting 0.0142126s
+2016-09-08 16:33:06.7852|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 261 at RepositoryModel.cs:596
+2016-09-08 16:33:06.7852|INFO|thread:35|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 261 at RepositoryModel.cs:596 after waiting 2.26E-05s
+2016-09-08 16:33:06.7952|INFO|thread:11|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 262 at GitClient.cs:288
+2016-09-08 16:33:06.7952|INFO|thread:19|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 262 at GitClient.cs:288 after waiting 3.12E-05s
+2016-09-08 16:33:06.7952|INFO|thread:11|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 263 at BranchSynchronizer.cs:126
+2016-09-08 16:33:06.7952|INFO|thread:11|AsyncReaderWriterLock|Released concurrent scheduler for operation: 261 at RepositoryModel.cs:596 after blocking 0.0100349s
+2016-09-08 16:33:06.7952|INFO|thread:35|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 263 at BranchSynchronizer.cs:126 after waiting 9.4E-05s
+2016-09-08 16:33:06.8082|INFO|thread:11|ConcurrentRepositoryConnection|branch stats: remote not found for 10140340105
+2016-09-08 16:33:06.8082|INFO|thread:11|AsyncReaderWriterLock|Released concurrent scheduler for operation: 263 at BranchSynchronizer.cs:126 after blocking 0.0126991s
+2016-09-08 16:33:06.8082|INFO|thread:25|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:33:06.8082|INFO|thread:25|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:33:06.8082|INFO|thread:25|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:33:06.8082|INFO|thread:30|AsyncReaderWriterLock|Released concurrent scheduler for operation: 259 at GitClient.cs:149 after blocking 0.0454232s
+2016-09-08 16:33:06.8372|INFO|thread:18|AsyncReaderWriterLock|Released concurrent scheduler for operation: 260 at GitClient.cs:199 after blocking 0.0515588s
+2016-09-08 16:33:06.8622|INFO|thread:25|ConcurrentRepositoryConnection|Took 41ms to git status
+2016-09-08 16:33:06.8622|INFO|thread:25|ConcurrentRepositoryConnection|Took 41ms to git status and parse output
+2016-09-08 16:33:06.8712|INFO|thread:25|NewCommitViewModel|Took 76ms to load files for F:\Web编程\dartgate\dartgate
+2016-09-08 16:33:06.8712|INFO|thread:25|AsyncReaderWriterLock|Released concurrent scheduler for operation: 262 at GitClient.cs:288 after blocking 0.0759749s
+2016-09-08 16:33:06.9082|INFO|thread:37|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 264 at GitClient.cs:496
+2016-09-08 16:33:06.9082|INFO|thread:35|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 264 at GitClient.cs:496 after waiting 2.52E-05s
+2016-09-08 16:33:06.9212|INFO|thread:46|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 265 at GitClient.cs:496
+2016-09-08 16:33:06.9212|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 265 at GitClient.cs:496 after waiting 2.69E-05s
+2016-09-08 16:33:06.9212|INFO|thread:46|AsyncReaderWriterLock|Released concurrent scheduler for operation: 265 at GitClient.cs:496 after blocking 0.0095726s
+2016-09-08 16:33:06.9363|INFO|thread:22|AsyncReaderWriterLock|Released concurrent scheduler for operation: 264 at GitClient.cs:496 after blocking 0.0279531s
+2016-09-08 16:33:06.9543|INFO|thread: 1|NewCommitViewModel|Took 82ms to render file list for F:\Web编程\dartgate\dartgate
+2016-09-08 16:33:06.9543|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 266 at RepositoryViewModel.cs:325
+2016-09-08 16:33:06.9543|INFO|thread:37|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 266 at RepositoryViewModel.cs:325 after waiting 3.59E-05s
+2016-09-08 16:33:06.9783|INFO|thread:28|AsyncReaderWriterLock|Released concurrent scheduler for operation: 266 at RepositoryViewModel.cs:325 after blocking 0.0233443s
+2016-09-08 16:33:10.7791|INFO|thread:38|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 267 at GitClient.cs:496
+2016-09-08 16:33:10.7791|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 267 at GitClient.cs:496 after waiting 2.52E-05s
+2016-09-08 16:33:10.8032|INFO|thread:30|AsyncReaderWriterLock|Released concurrent scheduler for operation: 267 at GitClient.cs:496 after blocking 0.0231878s
+2016-09-08 16:33:10.8032|INFO|thread:28|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 268 at GitClient.cs:496
+2016-09-08 16:33:10.8032|INFO|thread:28|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 268 at GitClient.cs:496 after waiting 0.000121s
+2016-09-08 16:33:10.8032|INFO|thread:19|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 269 at GitClient.cs:496
+2016-09-08 16:33:10.8032|INFO|thread:19|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 269 at GitClient.cs:496 after waiting 0.0001052s
+2016-09-08 16:33:10.8282|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 269 at GitClient.cs:496 after blocking 0.0235432s
+2016-09-08 16:33:10.8282|INFO|thread:28|AsyncReaderWriterLock|Released concurrent scheduler for operation: 268 at GitClient.cs:496 after blocking 0.0236899s
+2016-09-08 16:33:13.1318|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 270 at ICommitCreator.cs:89
+2016-09-08 16:33:13.1318|INFO|thread:22|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 270 at ICommitCreator.cs:89 after waiting 4.49E-05s
+2016-09-08 16:33:13.1368|INFO|thread:28|ExclusiveRepositoryConnection|Creating Commit
+2016-09-08 16:33:13.1368|INFO|thread:28|ExclusiveRepositoryConnection|Creating new commit with 1 file(s). 添加10140340105文件
+
+该文件添加了内容：xxxxxxx
+
+2016-09-08 16:33:13.1519|INFO|thread:28|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:33:13.1519|INFO|thread:28|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:33:13.1519|INFO|thread:28|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "1011.md" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:33:13.2500|INFO|thread:35|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:33:13.2500|INFO|thread:35|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:33:13.2500|INFO|thread:35|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'commit -F "C:\Users\lenovo\AppData\Local\Temp\803c019f-f47d-4336-91a7-ae82e0b35ef4" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:33:13.2860|WARN|thread:45|RepositoryModel|Failed creating exclusive connection for ICommitCreator.cs:89
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:33:13.2860|INFO|thread:45|AsyncReaderWriterLock|Released exclusive scheduler for operation: 270 at ICommitCreator.cs:89 after blocking 0.1537194s
+2016-09-08 16:33:13.2860|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:33:24.1600|INFO|thread:37|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 271 at BranchSynchronizer.cs:160
+2016-09-08 16:33:24.1600|INFO|thread:37|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 271 at BranchSynchronizer.cs:160 after waiting 0.0016024s
+2016-09-08 16:33:24.1700|INFO|thread:37|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:33:24.1700|INFO|thread:37|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:33:24.1700|INFO|thread:37|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'fetch --prune --recurse-submodules=on-demand meflyup ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:33:25.1688|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 272 at ICommitCreator.cs:89
+2016-09-08 16:33:26.0104|INFO|thread:11|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-09-08 16:33:26.0104|INFO|thread:11|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 273 at GitClient.cs:199
+2016-09-08 16:33:26.0104|INFO|thread:11|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 274 at RepositoryModel.cs:596
+2016-09-08 16:33:26.0104|INFO|thread:11|AsyncReaderWriterLock|Released concurrent scheduler for operation: 271 at BranchSynchronizer.cs:160 after blocking 1.8504121s
+2016-09-08 16:33:26.0104|INFO|thread:37|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 272 at ICommitCreator.cs:89 after waiting 0.8426215s
+2016-09-08 16:33:26.0104|INFO|thread:37|ExclusiveRepositoryConnection|Creating Commit
+2016-09-08 16:33:26.0104|INFO|thread:37|ExclusiveRepositoryConnection|Creating new commit with 1 file(s). 添加10140340105文件
+
+该文件添加了内容：xxxxxxx
+
+2016-09-08 16:33:26.0294|INFO|thread:37|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:33:26.0294|INFO|thread:37|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:33:26.0294|INFO|thread:37|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "1011.md" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:33:26.0764|INFO|thread:19|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:33:26.0764|INFO|thread:19|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:33:26.0764|INFO|thread:19|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'commit -F "C:\Users\lenovo\AppData\Local\Temp\28905511-01f0-401e-8b7c-3c26891bb73c" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:33:26.1495|WARN|thread:19|RepositoryModel|Failed creating exclusive connection for ICommitCreator.cs:89
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:33:26.1495|INFO|thread:19|AsyncReaderWriterLock|Released exclusive scheduler for operation: 272 at ICommitCreator.cs:89 after blocking 0.1380399s
+2016-09-08 16:33:26.1495|INFO|thread:37|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 273 at GitClient.cs:199 after waiting 0.1386814s
+2016-09-08 16:33:26.1495|INFO|thread:19|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 274 at RepositoryModel.cs:596 after waiting 0.1381968s
+2016-09-08 16:33:26.1525|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:33:26.1525|INFO|thread:11|BackgroundFetcher|Got a refresh period for F:\Web编程\dartgate\dartgate\.git of 300 seconds
+2016-09-08 16:33:26.1525|INFO|thread:11|BackgroundFetcher|Added a delay for F:\Web编程\dartgate\dartgate\.git of 4620 milliseconds
+2016-09-08 16:33:26.1525|INFO|thread:19|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 275 at GitClient.cs:288
+2016-09-08 16:33:26.1525|INFO|thread:19|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 276 at BranchSynchronizer.cs:126
+2016-09-08 16:33:26.1525|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 274 at RepositoryModel.cs:596 after blocking 0.0137255s
+2016-09-08 16:33:26.1525|INFO|thread:19|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 275 at GitClient.cs:288 after waiting 0.0004362s
+2016-09-08 16:33:26.1525|INFO|thread:11|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 276 at BranchSynchronizer.cs:126 after waiting 0.0005871s
+2016-09-08 16:33:26.1775|INFO|thread:38|ConcurrentRepositoryConnection|branch stats: remote not found for 10140340105
+2016-09-08 16:33:26.1775|INFO|thread:38|AsyncReaderWriterLock|Released concurrent scheduler for operation: 276 at BranchSynchronizer.cs:126 after blocking 0.0129626s
+2016-09-08 16:33:26.1775|INFO|thread:46|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:33:26.1775|INFO|thread:46|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:33:26.1775|INFO|thread:46|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:33:26.2235|INFO|thread:37|AsyncReaderWriterLock|Released concurrent scheduler for operation: 273 at GitClient.cs:199 after blocking 0.0733589s
+2016-09-08 16:33:26.2295|INFO|thread:46|ConcurrentRepositoryConnection|Took 48ms to git status
+2016-09-08 16:33:26.2295|INFO|thread:46|ConcurrentRepositoryConnection|Took 48ms to git status and parse output
+2016-09-08 16:33:26.2295|INFO|thread:46|NewCommitViewModel|Took 69ms to load files for F:\Web编程\dartgate\dartgate
+2016-09-08 16:33:26.2295|INFO|thread:46|AsyncReaderWriterLock|Released concurrent scheduler for operation: 275 at GitClient.cs:288 after blocking 0.0685987s
+2016-09-08 16:33:26.2295|INFO|thread:35|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 277 at GitClient.cs:496
+2016-09-08 16:33:26.2295|INFO|thread:25|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 277 at GitClient.cs:496 after waiting 2.77E-05s
+2016-09-08 16:33:26.2465|INFO|thread: 1|NewCommitViewModel|Took 14ms to render file list for F:\Web编程\dartgate\dartgate
+2016-09-08 16:33:26.2675|INFO|thread:35|AsyncReaderWriterLock|Released concurrent scheduler for operation: 277 at GitClient.cs:496 after blocking 0.0287939s
+2016-09-08 16:33:26.2675|INFO|thread:30|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 278 at GitClient.cs:496
+2016-09-08 16:33:26.2675|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 278 at GitClient.cs:496 after waiting 2E-05s
+2016-09-08 16:33:26.2675|INFO|thread:46|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 279 at GitClient.cs:496
+2016-09-08 16:33:26.2675|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 279 at GitClient.cs:496 after waiting 1.11E-05s
+2016-09-08 16:33:26.2866|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 279 at GitClient.cs:496 after blocking 0.0184892s
+2016-09-08 16:33:26.2866|INFO|thread:30|AsyncReaderWriterLock|Released concurrent scheduler for operation: 278 at GitClient.cs:496 after blocking 0.0192106s
+2016-09-08 16:33:26.5587|INFO|thread: 1|NewPullRequestViewModel|No matching pull request found, clearing selection...
+2016-09-08 16:33:27.0912|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 280 at GitClient.cs:622
+2016-09-08 16:33:27.0912|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 280 at GitClient.cs:622 after waiting 5.26E-05s
+2016-09-08 16:33:27.0912|INFO|thread:47|AsyncReaderWriterLock|Released concurrent scheduler for operation: 280 at GitClient.cs:622 after blocking 0.0094152s
+2016-09-08 16:33:27.0912|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 281 at RepositoryViewModel.cs:325
+2016-09-08 16:33:27.0912|INFO|thread:18|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 281 at RepositoryViewModel.cs:325 after waiting 7.48E-05s
+2016-09-08 16:33:27.1272|INFO|thread:46|AsyncReaderWriterLock|Released concurrent scheduler for operation: 281 at RepositoryViewModel.cs:325 after blocking 0.0253983s
+2016-09-08 16:33:29.9824|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 282 at ICommitCreator.cs:89
+2016-09-08 16:33:29.9824|INFO|thread:16|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 282 at ICommitCreator.cs:89 after waiting 3.03E-05s
+2016-09-08 16:33:29.9824|INFO|thread:25|ExclusiveRepositoryConnection|Creating Commit
+2016-09-08 16:33:29.9954|INFO|thread:25|ExclusiveRepositoryConnection|Creating new commit with 1 file(s). 添加10140340105文件
+
+该文件添加了内容：xxxxxxx
+
+2016-09-08 16:33:29.9954|INFO|thread:25|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:33:29.9954|INFO|thread:25|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:33:29.9954|INFO|thread:25|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "1011.md" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:33:30.0414|INFO|thread:28|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:33:30.0414|INFO|thread:28|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:33:30.0414|INFO|thread:28|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'commit -F "C:\Users\lenovo\AppData\Local\Temp\afd8ed5a-751c-46c3-bd59-bbdfe772d5dd" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:33:30.0864|WARN|thread:38|RepositoryModel|Failed creating exclusive connection for ICommitCreator.cs:89
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:33:30.0864|INFO|thread:38|AsyncReaderWriterLock|Released exclusive scheduler for operation: 282 at ICommitCreator.cs:89 after blocking 0.1043664s
+2016-09-08 16:33:30.0884|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:35:03.3739|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 283 at ICommitCreator.cs:89
+2016-09-08 16:35:03.3739|INFO|thread:18|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 283 at ICommitCreator.cs:89 after waiting 4.74E-05s
+2016-09-08 16:35:03.3739|INFO|thread:11|ExclusiveRepositoryConnection|Creating Commit
+2016-09-08 16:35:03.3889|INFO|thread:11|ExclusiveRepositoryConnection|Creating new commit with 1 file(s). 添加10140340105文件
+
+该文件添加了内容：xxxxxxx
+
+2016-09-08 16:35:03.3889|INFO|thread:11|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:35:03.3889|INFO|thread:11|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:35:03.3889|INFO|thread:11|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "1011.md" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:35:03.4339|INFO|thread:47|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:35:03.4339|INFO|thread:47|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:35:03.4339|INFO|thread:47|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'commit -F "C:\Users\lenovo\AppData\Local\Temp\63e46353-e0fa-40ab-8847-2e56bb3ce7f1" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:35:03.4759|WARN|thread:39|RepositoryModel|Failed creating exclusive connection for ICommitCreator.cs:89
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:35:03.4759|INFO|thread:39|AsyncReaderWriterLock|Released exclusive scheduler for operation: 283 at ICommitCreator.cs:89 after blocking 0.1022294s
+2016-09-08 16:35:03.4759|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:35:24.2550|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 284 at GitClient.cs:149
+2016-09-08 16:35:24.2550|INFO|thread:35|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 284 at GitClient.cs:149 after waiting 4.78E-05s
+2016-09-08 16:35:24.2550|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 285 at GitClient.cs:199
+2016-09-08 16:35:24.2550|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 286 at RepositoryModel.cs:596
+2016-09-08 16:35:24.2550|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 285 at GitClient.cs:199 after waiting 0.0007466s
+2016-09-08 16:35:24.2550|INFO|thread:46|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 286 at RepositoryModel.cs:596 after waiting 0.0003087s
+2016-09-08 16:35:24.2710|INFO|thread:30|AsyncReaderWriterLock|Released concurrent scheduler for operation: 284 at GitClient.cs:149 after blocking 0.0156957s
+2016-09-08 16:35:24.2710|INFO|thread:28|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 287 at GitClient.cs:288
+2016-09-08 16:35:24.2710|INFO|thread:47|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 287 at GitClient.cs:288 after waiting 3.25E-05s
+2016-09-08 16:35:24.2710|INFO|thread:28|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 288 at BranchSynchronizer.cs:126
+2016-09-08 16:35:24.2710|INFO|thread:28|AsyncReaderWriterLock|Released concurrent scheduler for operation: 286 at RepositoryModel.cs:596 after blocking 0.0151791s
+2016-09-08 16:35:24.2710|INFO|thread:46|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 288 at BranchSynchronizer.cs:126 after waiting 0.0001167s
+2016-09-08 16:35:24.2791|INFO|thread:46|ConcurrentRepositoryConnection|branch stats: remote not found for 10140340105
+2016-09-08 16:35:24.2791|INFO|thread:46|AsyncReaderWriterLock|Released concurrent scheduler for operation: 288 at BranchSynchronizer.cs:126 after blocking 0.0073774s
+2016-09-08 16:35:24.2791|INFO|thread:16|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:35:24.2791|INFO|thread:16|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:35:24.2791|INFO|thread:16|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:35:24.3882|INFO|thread:45|ConcurrentRepositoryConnection|Took 103ms to git status
+2016-09-08 16:35:24.3882|INFO|thread:45|ConcurrentRepositoryConnection|Took 103ms to git status and parse output
+2016-09-08 16:35:24.3882|INFO|thread:45|NewCommitViewModel|Took 127ms to load files for F:\Web编程\dartgate\dartgate
+2016-09-08 16:35:24.3882|INFO|thread:45|AsyncReaderWriterLock|Released concurrent scheduler for operation: 287 at GitClient.cs:288 after blocking 0.1273425s
+2016-09-08 16:35:24.4182|INFO|thread:22|AsyncReaderWriterLock|Released concurrent scheduler for operation: 285 at GitClient.cs:199 after blocking 0.161368s
+2016-09-08 16:35:24.4182|INFO|thread:37|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 289 at GitClient.cs:496
+2016-09-08 16:35:24.4182|INFO|thread:38|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 289 at GitClient.cs:496 after waiting 4.1E-05s
+2016-09-08 16:35:24.4522|INFO|thread:37|AsyncReaderWriterLock|Released concurrent scheduler for operation: 289 at GitClient.cs:496 after blocking 0.0230283s
+2016-09-08 16:35:24.4522|INFO|thread:42|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 290 at GitClient.cs:496
+2016-09-08 16:35:24.4522|INFO|thread:11|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 290 at GitClient.cs:496 after waiting 1.24E-05s
+2016-09-08 16:35:24.4522|INFO|thread:39|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 291 at GitClient.cs:496
+2016-09-08 16:35:24.4522|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 291 at GitClient.cs:496 after waiting 3.46E-05s
+2016-09-08 16:35:24.4522|INFO|thread: 1|NewCommitViewModel|Took 54ms to render file list for F:\Web编程\dartgate\dartgate
+2016-09-08 16:35:24.4522|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 292 at RepositoryViewModel.cs:325
+2016-09-08 16:35:24.4522|INFO|thread:46|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 292 at RepositoryViewModel.cs:325 after waiting 2.77E-05s
+2016-09-08 16:35:24.4852|INFO|thread:42|AsyncReaderWriterLock|Released concurrent scheduler for operation: 290 at GitClient.cs:496 after blocking 0.0328288s
+2016-09-08 16:35:24.4852|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 292 at RepositoryViewModel.cs:325 after blocking 0.0319252s
+2016-09-08 16:35:24.4852|INFO|thread:39|AsyncReaderWriterLock|Released concurrent scheduler for operation: 291 at GitClient.cs:496 after blocking 0.0338642s
+2016-09-08 16:35:42.8789|INFO|thread: 1|NewPullRequestViewModel|No matching pull request found, clearing selection...
+2016-09-08 16:35:42.9740|INFO|thread:37|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 293 at GitClient.cs:211
+2016-09-08 16:35:42.9740|INFO|thread:39|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 293 at GitClient.cs:211 after waiting 7.18E-05s
+2016-09-08 16:35:42.9740|INFO|thread:37|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 294 at GitClient.cs:134
+2016-09-08 16:35:42.9740|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 294 at GitClient.cs:134 after waiting 0.0001223s
+2016-09-08 16:35:42.9740|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 295 at RepositoryViewModel.cs:325
+2016-09-08 16:35:42.9740|INFO|thread:45|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 295 at RepositoryViewModel.cs:325 after waiting 5.68E-05s
+2016-09-08 16:35:43.0060|INFO|thread:18|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:35:43.0060|INFO|thread:18|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:35:43.0060|INFO|thread:18|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'log -g --abbrev-commit --pretty=oneline HEAD -n 2500 ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:35:43.0180|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 293 at GitClient.cs:211 after blocking 0.043814s
+2016-09-08 16:35:43.0340|INFO|thread:47|AsyncReaderWriterLock|Released concurrent scheduler for operation: 295 at RepositoryViewModel.cs:325 after blocking 0.0576028s
+2016-09-08 16:35:43.0520|INFO|thread:42|AsyncReaderWriterLock|Released concurrent scheduler for operation: 294 at GitClient.cs:134 after blocking 0.0770581s
+2016-09-08 16:36:16.3590|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 296 at GitClient.cs:149
+2016-09-08 16:36:16.3590|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 296 at GitClient.cs:149 after waiting 0.000192s
+2016-09-08 16:36:16.3590|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 297 at GitClient.cs:199
+2016-09-08 16:36:16.3590|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 298 at RepositoryModel.cs:596
+2016-09-08 16:36:16.3590|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 297 at GitClient.cs:199 after waiting 0.000694s
+2016-09-08 16:36:16.3590|INFO|thread:19|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 298 at RepositoryModel.cs:596 after waiting 0.0001056s
+2016-09-08 16:36:16.3730|INFO|thread:18|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 299 at GitClient.cs:288
+2016-09-08 16:36:16.3730|INFO|thread:18|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 300 at BranchSynchronizer.cs:126
+2016-09-08 16:36:16.3730|INFO|thread:18|AsyncReaderWriterLock|Released concurrent scheduler for operation: 298 at RepositoryModel.cs:596 after blocking 0.011701s
+2016-09-08 16:36:16.3730|INFO|thread:19|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 299 at GitClient.cs:288 after waiting 0.0007757s
+2016-09-08 16:36:16.3730|INFO|thread:47|AsyncReaderWriterLock|Released concurrent scheduler for operation: 296 at GitClient.cs:149 after blocking 0.0152813s
+2016-09-08 16:36:16.3730|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 300 at BranchSynchronizer.cs:126 after waiting 0.0035982s
+2016-09-08 16:36:16.3920|INFO|thread:19|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:36:16.3920|INFO|thread:19|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:36:16.3920|INFO|thread:19|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:36:16.3920|INFO|thread:16|ConcurrentRepositoryConnection|branch stats: remote not found for 10140340105
+2016-09-08 16:36:16.3920|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 300 at BranchSynchronizer.cs:126 after blocking 0.0201271s
+2016-09-08 16:36:16.4281|INFO|thread:22|AsyncReaderWriterLock|Released concurrent scheduler for operation: 297 at GitClient.cs:199 after blocking 0.0667131s
+2016-09-08 16:36:16.4331|INFO|thread:42|ConcurrentRepositoryConnection|Took 36ms to git status
+2016-09-08 16:36:16.4331|INFO|thread:42|ConcurrentRepositoryConnection|Took 37ms to git status and parse output
+2016-09-08 16:36:16.4331|INFO|thread:42|NewCommitViewModel|Took 62ms to load files for F:\Web编程\dartgate\dartgate
+2016-09-08 16:36:16.4331|INFO|thread:42|AsyncReaderWriterLock|Released concurrent scheduler for operation: 299 at GitClient.cs:288 after blocking 0.0616519s
+2016-09-08 16:36:16.4331|INFO|thread:25|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 301 at GitClient.cs:496
+2016-09-08 16:36:16.4331|INFO|thread:45|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 301 at GitClient.cs:496 after waiting 3.2E-05s
+2016-09-08 16:36:16.4331|INFO|thread:25|AsyncReaderWriterLock|Released concurrent scheduler for operation: 301 at GitClient.cs:496 after blocking 0.0068065s
+2016-09-08 16:36:16.4531|INFO|thread:28|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 302 at GitClient.cs:496
+2016-09-08 16:36:16.4531|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 302 at GitClient.cs:496 after waiting 2.6E-05s
+2016-09-08 16:36:16.4531|INFO|thread:38|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 303 at GitClient.cs:496
+2016-09-08 16:36:16.4531|INFO|thread:18|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 303 at GitClient.cs:496 after waiting 2.82E-05s
+2016-09-08 16:36:16.4531|INFO|thread:16|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 304 at GitClient.cs:496
+2016-09-08 16:36:16.4531|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 304 at GitClient.cs:496 after waiting 0.0001004s
+2016-09-08 16:36:16.4531|INFO|thread: 1|NewCommitViewModel|Took 22ms to render file list for F:\Web编程\dartgate\dartgate
+2016-09-08 16:36:16.4531|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 305 at RepositoryViewModel.cs:325
+2016-09-08 16:36:16.4531|INFO|thread:11|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 305 at RepositoryViewModel.cs:325 after waiting 0.0035837s
+2016-09-08 16:36:16.4771|INFO|thread:38|AsyncReaderWriterLock|Released concurrent scheduler for operation: 303 at GitClient.cs:496 after blocking 0.0205628s
+2016-09-08 16:36:16.4791|INFO|thread:47|AsyncReaderWriterLock|Released concurrent scheduler for operation: 302 at GitClient.cs:496 after blocking 0.0256382s
+2016-09-08 16:36:16.4791|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 304 at GitClient.cs:496 after blocking 0.0248343s
+2016-09-08 16:36:16.4951|INFO|thread:35|AsyncReaderWriterLock|Released concurrent scheduler for operation: 305 at RepositoryViewModel.cs:325 after blocking 0.0317481s
+2016-09-08 16:36:38.3642|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 306 at ICommitCreator.cs:89
+2016-09-08 16:36:38.3642|INFO|thread:37|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 306 at ICommitCreator.cs:89 after waiting 8.89E-05s
+2016-09-08 16:36:38.3772|INFO|thread:28|ExclusiveRepositoryConnection|Creating Commit
+2016-09-08 16:36:38.3922|INFO|thread:28|ExclusiveRepositoryConnection|Creating new commit with 2 file(s). 添加10140340105文件
+
+该文件添加了内容：xxxxxxx
+
+2016-09-08 16:36:38.3922|INFO|thread:28|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:36:38.3922|INFO|thread:28|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:36:38.3922|INFO|thread:28|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "1011.md" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:36:38.4312|WARN|thread:47|RepositoryModel|Failed creating exclusive connection for ICommitCreator.cs:89
+GitHub.IO.ProcessException: fatal: pathspec '1011.md' did not match any files
+2016-09-08 16:36:38.4312|INFO|thread:47|AsyncReaderWriterLock|Released exclusive scheduler for operation: 306 at ICommitCreator.cs:89 after blocking 0.0670826s
+2016-09-08 16:36:38.4353|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+GitHub.IO.ProcessException: fatal: pathspec '1011.md' did not match any files
+2016-09-08 16:36:52.7417|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 307 at GitClient.cs:149
+2016-09-08 16:36:52.7417|INFO|thread:35|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 307 at GitClient.cs:149 after waiting 4.23E-05s
+2016-09-08 16:36:52.7417|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 308 at GitClient.cs:199
+2016-09-08 16:36:52.7417|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 309 at RepositoryModel.cs:596
+2016-09-08 16:36:52.7417|INFO|thread:42|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 308 at GitClient.cs:199 after waiting 0.0006855s
+2016-09-08 16:36:52.7457|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 309 at RepositoryModel.cs:596 after waiting 0.003088s
+2016-09-08 16:36:52.7457|INFO|thread:30|AsyncReaderWriterLock|Released concurrent scheduler for operation: 307 at GitClient.cs:149 after blocking 0.0157492s
+2016-09-08 16:36:52.7457|INFO|thread:28|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 310 at GitClient.cs:288
+2016-09-08 16:36:52.7457|INFO|thread:19|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 310 at GitClient.cs:288 after waiting 3.25E-05s
+2016-09-08 16:36:52.7457|INFO|thread:28|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 311 at BranchSynchronizer.cs:126
+2016-09-08 16:36:52.7457|INFO|thread:28|AsyncReaderWriterLock|Released concurrent scheduler for operation: 309 at RepositoryModel.cs:596 after blocking 0.0137974s
+2016-09-08 16:36:52.7457|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 311 at BranchSynchronizer.cs:126 after waiting 8.93E-05s
+2016-09-08 16:36:52.7717|INFO|thread:28|ConcurrentRepositoryConnection|branch stats: remote not found for 10140340105
+2016-09-08 16:36:52.7717|INFO|thread:28|AsyncReaderWriterLock|Released concurrent scheduler for operation: 311 at BranchSynchronizer.cs:126 after blocking 0.0115329s
+2016-09-08 16:36:52.7797|INFO|thread:16|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:36:52.7797|INFO|thread:16|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:36:52.7797|INFO|thread:16|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:36:52.8068|INFO|thread:46|AsyncReaderWriterLock|Released concurrent scheduler for operation: 308 at GitClient.cs:199 after blocking 0.0634925s
+2016-09-08 16:36:52.8198|INFO|thread:39|ConcurrentRepositoryConnection|Took 37ms to git status
+2016-09-08 16:36:52.8198|INFO|thread:39|ConcurrentRepositoryConnection|Took 37ms to git status and parse output
+2016-09-08 16:36:52.8198|INFO|thread:39|NewCommitViewModel|Took 62ms to load files for F:\Web编程\dartgate\dartgate
+2016-09-08 16:36:52.8228|INFO|thread:39|AsyncReaderWriterLock|Released concurrent scheduler for operation: 310 at GitClient.cs:288 after blocking 0.0624405s
+2016-09-08 16:36:52.8498|INFO|thread: 1|NewCommitViewModel|Took 27ms to render file list for F:\Web编程\dartgate\dartgate
+2016-09-08 16:36:52.8498|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 312 at RepositoryViewModel.cs:325
+2016-09-08 16:36:52.8498|INFO|thread:25|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 312 at RepositoryViewModel.cs:325 after waiting 3.72E-05s
+2016-09-08 16:36:52.8748|INFO|thread:18|AsyncReaderWriterLock|Released concurrent scheduler for operation: 312 at RepositoryViewModel.cs:325 after blocking 0.024546s
+2016-09-08 16:36:57.6213|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 313 at ICommitCreator.cs:89
+2016-09-08 16:36:57.6213|INFO|thread:11|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 313 at ICommitCreator.cs:89 after waiting 4.53E-05s
+2016-09-08 16:36:57.6213|INFO|thread:38|ExclusiveRepositoryConnection|Creating Commit
+2016-09-08 16:36:57.6213|INFO|thread:38|ExclusiveRepositoryConnection|Creating new commit with 1 file(s). 添加10140340105文件
+
+该文件添加了内容：xxxxxxx
+
+2016-09-08 16:36:57.6413|INFO|thread:38|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:36:57.6413|INFO|thread:38|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:36:57.6413|INFO|thread:38|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "10140340105.md" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:36:57.6823|INFO|thread:30|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:36:57.6823|INFO|thread:30|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:36:57.6823|INFO|thread:30|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'commit -F "C:\Users\lenovo\AppData\Local\Temp\dc8259cf-c156-4720-9031-f5c1fd4fc759" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:36:57.7243|WARN|thread:45|RepositoryModel|Failed creating exclusive connection for ICommitCreator.cs:89
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:36:57.7243|INFO|thread:45|AsyncReaderWriterLock|Released exclusive scheduler for operation: 313 at ICommitCreator.cs:89 after blocking 0.1036796s
+2016-09-08 16:36:57.7243|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:37:04.0832|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 314 at ICommitCreator.cs:89
+2016-09-08 16:37:04.0832|INFO|thread:35|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 314 at ICommitCreator.cs:89 after waiting 3.12E-05s
+2016-09-08 16:37:04.0892|INFO|thread:22|ExclusiveRepositoryConnection|Creating Commit
+2016-09-08 16:37:04.0892|INFO|thread:22|ExclusiveRepositoryConnection|Creating new commit with 1 file(s). 添加10140340105文件
+
+该文件添加了内容：xxxxxxx
+
+2016-09-08 16:37:04.0892|INFO|thread:22|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:37:04.0892|INFO|thread:22|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:37:04.0892|INFO|thread:22|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "10140340105.md" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:37:04.1422|INFO|thread:37|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:37:04.1422|INFO|thread:37|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:37:04.1422|INFO|thread:37|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'commit -F "C:\Users\lenovo\AppData\Local\Temp\a6208673-fb5e-4983-ba25-87d308e510d9" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:37:04.1813|WARN|thread:42|RepositoryModel|Failed creating exclusive connection for ICommitCreator.cs:89
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:37:04.1813|INFO|thread:42|AsyncReaderWriterLock|Released exclusive scheduler for operation: 314 at ICommitCreator.cs:89 after blocking 0.0976501s
+2016-09-08 16:37:04.1833|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:38:28.7878|INFO|thread:22|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 315 at BranchSynchronizer.cs:160
+2016-09-08 16:38:28.7878|INFO|thread:47|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 315 at BranchSynchronizer.cs:160 after waiting 0.0006637s
+2016-09-08 16:38:28.8078|INFO|thread:28|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:38:28.8078|INFO|thread:28|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:38:28.8078|INFO|thread:28|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'fetch --prune --recurse-submodules=on-demand meflyup ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:38:30.8193|INFO|thread:28|BackgroundFetcher|Got a refresh period for F:\Web编程\dartgate\dartgate\.git of 300 seconds
+2016-09-08 16:38:30.8193|INFO|thread:28|BackgroundFetcher|Added a delay for F:\Web编程\dartgate\dartgate\.git of 5282 milliseconds
+2016-09-08 16:38:30.8413|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 316 at GitClient.cs:622
+2016-09-08 16:38:30.8413|INFO|thread:11|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 316 at GitClient.cs:622 after waiting 5.38E-05s
+2016-09-08 16:38:30.8413|INFO|thread:19|AsyncReaderWriterLock|Released concurrent scheduler for operation: 316 at GitClient.cs:622 after blocking 0.0084136s
+2016-09-08 16:38:30.8874|INFO|thread:25|ConcurrentRepositoryConnection|branch stats: ahead 0, behind 0 on master
+2016-09-08 16:38:30.8874|INFO|thread:25|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 317 at GitClient.cs:199
+2016-09-08 16:38:30.8874|INFO|thread:35|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 317 at GitClient.cs:199 after waiting 5.47E-05s
+2016-09-08 16:38:30.8874|INFO|thread:25|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 318 at RepositoryModel.cs:596
+2016-09-08 16:38:30.8874|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 318 at RepositoryModel.cs:596 after waiting 4.66E-05s
+2016-09-08 16:38:30.8874|INFO|thread:25|AsyncReaderWriterLock|Released concurrent scheduler for operation: 315 at BranchSynchronizer.cs:160 after blocking 2.0997768s
+2016-09-08 16:38:30.8874|INFO|thread:37|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 319 at GitClient.cs:288
+2016-09-08 16:38:30.8874|INFO|thread:11|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 319 at GitClient.cs:288 after waiting 8.16E-05s
+2016-09-08 16:38:30.8874|INFO|thread:37|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 320 at BranchSynchronizer.cs:126
+2016-09-08 16:38:30.8874|INFO|thread:37|AsyncReaderWriterLock|Released concurrent scheduler for operation: 318 at RepositoryModel.cs:596 after blocking 0.0078893s
+2016-09-08 16:38:30.8874|INFO|thread:37|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 320 at BranchSynchronizer.cs:126 after waiting 0.0002296s
+2016-09-08 16:38:30.9054|INFO|thread:37|ConcurrentRepositoryConnection|branch stats: remote not found for 10140340105
+2016-09-08 16:38:30.9054|INFO|thread:37|AsyncReaderWriterLock|Released concurrent scheduler for operation: 320 at BranchSynchronizer.cs:126 after blocking 0.0094473s
+2016-09-08 16:38:30.9054|INFO|thread:42|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:38:30.9054|INFO|thread:42|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:38:30.9054|INFO|thread:42|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:38:30.9284|INFO|thread:22|AsyncReaderWriterLock|Released concurrent scheduler for operation: 317 at GitClient.cs:199 after blocking 0.0405629s
+2016-09-08 16:38:30.9434|INFO|thread:16|ConcurrentRepositoryConnection|Took 33ms to git status
+2016-09-08 16:38:30.9434|INFO|thread:16|ConcurrentRepositoryConnection|Took 33ms to git status and parse output
+2016-09-08 16:38:30.9434|INFO|thread:16|NewCommitViewModel|Took 49ms to load files for F:\Web编程\dartgate\dartgate
+2016-09-08 16:38:30.9434|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 319 at GitClient.cs:288 after blocking 0.0496797s
+2016-09-08 16:38:30.9494|INFO|thread: 1|NewCommitViewModel|Took 3ms to render file list for F:\Web编程\dartgate\dartgate
+2016-09-08 16:38:31.6229|INFO|thread:24|NewPullRequestViewModel|No matching pull request found, clearing selection...
+2016-09-08 16:38:31.6229|INFO|thread: 1|NewPullRequestViewModel|No matching pull request found, clearing selection...
+2016-09-08 16:38:31.6229|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 321 at RepositoryViewModel.cs:325
+2016-09-08 16:38:31.6229|INFO|thread:18|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 321 at RepositoryViewModel.cs:325 after waiting 3.76E-05s
+2016-09-08 16:38:31.6409|INFO|thread:46|AsyncReaderWriterLock|Released concurrent scheduler for operation: 321 at RepositoryViewModel.cs:325 after blocking 0.0181791s
+2016-09-08 16:38:47.2162|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 322 at GitClient.cs:149
+2016-09-08 16:38:47.2162|INFO|thread:25|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 322 at GitClient.cs:149 after waiting 4.14E-05s
+2016-09-08 16:38:47.2162|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 323 at GitClient.cs:199
+2016-09-08 16:38:47.2162|INFO|thread:45|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 323 at GitClient.cs:199 after waiting 0.0010413s
+2016-09-08 16:38:47.2162|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 324 at RepositoryModel.cs:596
+2016-09-08 16:38:47.2162|INFO|thread:39|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 324 at RepositoryModel.cs:596 after waiting 0.0001047s
+2016-09-08 16:38:47.2322|INFO|thread:42|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 325 at GitClient.cs:288
+2016-09-08 16:38:47.2322|INFO|thread:30|AsyncReaderWriterLock|Released concurrent scheduler for operation: 322 at GitClient.cs:149 after blocking 0.014358s
+2016-09-08 16:38:47.2322|INFO|thread:30|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 325 at GitClient.cs:288 after waiting 0.0001184s
+2016-09-08 16:38:47.2322|INFO|thread:42|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 326 at BranchSynchronizer.cs:126
+2016-09-08 16:38:47.2322|INFO|thread:42|AsyncReaderWriterLock|Released concurrent scheduler for operation: 324 at RepositoryModel.cs:596 after blocking 0.0124224s
+2016-09-08 16:38:47.2322|INFO|thread:42|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 326 at BranchSynchronizer.cs:126 after waiting 0.000248s
+2016-09-08 16:38:47.2322|INFO|thread:25|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:38:47.2322|INFO|thread:25|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:38:47.2322|INFO|thread:25|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:38:47.2462|INFO|thread:42|ConcurrentRepositoryConnection|branch stats: remote not found for 10140340105
+2016-09-08 16:38:47.2462|INFO|thread:42|AsyncReaderWriterLock|Released concurrent scheduler for operation: 326 at BranchSynchronizer.cs:126 after blocking 0.0135339s
+2016-09-08 16:38:47.2933|INFO|thread:46|AsyncReaderWriterLock|Released concurrent scheduler for operation: 323 at GitClient.cs:199 after blocking 0.0734466s
+2016-09-08 16:38:47.2933|INFO|thread:38|ConcurrentRepositoryConnection|Took 52ms to git status
+2016-09-08 16:38:47.2933|INFO|thread:38|ConcurrentRepositoryConnection|Took 52ms to git status and parse output
+2016-09-08 16:38:47.2933|INFO|thread:38|NewCommitViewModel|Took 70ms to load files for F:\Web编程\dartgate\dartgate
+2016-09-08 16:38:47.2933|INFO|thread:38|AsyncReaderWriterLock|Released concurrent scheduler for operation: 325 at GitClient.cs:288 after blocking 0.0702396s
+2016-09-08 16:38:47.2933|INFO|thread: 1|NewCommitViewModel|Took 3ms to render file list for F:\Web编程\dartgate\dartgate
+2016-09-08 16:38:47.3073|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 327 at RepositoryViewModel.cs:325
+2016-09-08 16:38:47.3073|INFO|thread:19|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 327 at RepositoryViewModel.cs:325 after waiting 3.97E-05s
+2016-09-08 16:38:47.3303|INFO|thread:11|AsyncReaderWriterLock|Released concurrent scheduler for operation: 327 at RepositoryViewModel.cs:325 after blocking 0.0231878s
+2016-09-08 16:39:08.8683|INFO|thread:35|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 328 at GitClient.cs:496
+2016-09-08 16:39:08.8683|INFO|thread:25|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 328 at GitClient.cs:496 after waiting 3.72E-05s
+2016-09-08 16:39:08.9023|INFO|thread:22|AsyncReaderWriterLock|Released concurrent scheduler for operation: 328 at GitClient.cs:496 after blocking 0.0341571s
+2016-09-08 16:39:08.9023|INFO|thread:39|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 329 at GitClient.cs:496
+2016-09-08 16:39:08.9023|INFO|thread:35|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 329 at GitClient.cs:496 after waiting 2.26E-05s
+2016-09-08 16:39:08.9213|INFO|thread:39|AsyncReaderWriterLock|Released concurrent scheduler for operation: 329 at GitClient.cs:496 after blocking 0.0177912s
+2016-09-08 16:39:11.8306|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 330 at ICommitCreator.cs:89
+2016-09-08 16:39:11.8306|INFO|thread:35|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 330 at ICommitCreator.cs:89 after waiting 4.53E-05s
+2016-09-08 16:39:11.8306|INFO|thread:16|ExclusiveRepositoryConnection|Creating Commit
+2016-09-08 16:39:11.8446|INFO|thread:16|ExclusiveRepositoryConnection|Creating new commit with 1 file(s). 添加10140340105文件
+
+该文件添加了内容：xxxxxxx
+
+2016-09-08 16:39:11.8446|INFO|thread:16|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:39:11.8446|INFO|thread:16|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:39:11.8446|INFO|thread:16|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "10140340105.md" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:39:11.8906|INFO|thread:47|GitEnvironment|Process set up with this SSH Agent info: 4588:/tmp/ssh-6URDz3ZEt5eF/agent.6036
+2016-09-08 16:39:11.8906|INFO|thread:47|GitEnvironment|PATH is C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\lenovo\AppData\Local\Apps\2.0\NXCNJ4H7.223\NP6JKQRO.81O\gith..tion_317444273a93ac29_0003.0000_ef9b79a5b012f364;C:\Users\lenovo\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\windows\Microsoft.NET\Framework\v4.0.30319;C:\windows\System32
+2016-09-08 16:39:11.8906|INFO|thread:47|ProcessWrapper|Starting: Process - FileName: 'C:\Users\lenovo\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'commit -F "C:\Users\lenovo\AppData\Local\Temp\65202a11-f642-4ce7-b685-1d156e1cc4bc" ', Working Directory: F:\Web编程\dartgate\dartgate\
+2016-09-08 16:39:11.9356|WARN|thread:18|RepositoryModel|Failed creating exclusive connection for ICommitCreator.cs:89
+GitHub.IO.ProcessException: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@Icecream.(none)')
+2016-09-08 16:39:11.9356|INFO|thread:18|AsyncReaderWriterLock|Released exclusive scheduler for operation: 330 at ICommitCreator.cs:89 after blocking 0.1053705s
