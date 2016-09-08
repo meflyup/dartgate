@@ -6,3 +6,8 @@
 - 安装github desktop
 
   到此地址下载[https://desktop.github.com/](https://desktop.github.com/)找到github windows桌面版下载地址，github的目的是用图形化界面简化上述git的命令操作，并为[www.github.com](www.github.com)上的代码协作提供很好的支持。默认情况下安装完成后如果在桌面看到github就表示安装成了
+
+- 资料列表  
+
+   - [git学习资料](https://git-scm.com/book/zh/v2)
+   - [github资料](https://help.github.com/)
