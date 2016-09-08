@@ -11,8 +11,6 @@
     * [代码协作 git&github](install_git.md)
     * [组建小组](create_team.md)
     * [使用github管理代码](course7.md)
-
-
 * [web开发概览](webdev_bigpicture.md)
      * [关于webapp](about_webapp.md)
   * [Dart 编程初体验](dartfirstApp.md)
