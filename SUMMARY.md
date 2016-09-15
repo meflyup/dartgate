@@ -16,6 +16,7 @@
 * [学习从官方站搜索权威一手资料](learnHowToLearnLang.md)
 * [用dart程序控制html界面](dynamicchangepage.md)
 * [从服务器获取json数据，并动态添加到HTML中](dynamiccreatepagecontentwithdata.md)
+* [解决这个小需求要怎么编程？](解决这个小需求要怎么编程？.md)
 * [搭建自己的服务器](yourOwnServer.md)
 * [获取数据库数据](getDataFromDb.md)
     * [作业](exercise.md)
@@ -31,5 +32,6 @@
     * [我们编写的程序可以在所有的浏览器上显示吗？](runanywhere.md)
     * [ace代码渲染测试](githubissues_ti.md)
 * [数据库关键点](db_key_concept.md)
-* [try]()
+* [try](try.md)
+    * [fef](fef.md)
 
