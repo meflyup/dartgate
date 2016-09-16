@@ -26,6 +26,10 @@
     * [restfule service](restfule_service.md)
     * [从服务器获取json数据，并动态添加到HTML中](dynamiccreatepagecontentwithdata.md)
     * [作业](exercise.md)
+* [团队开发](团队开发.md)
+    * [构思](构思.md)
+    * 评估
+    * 实施
 * [Tips](q&a.md)
     * [如何在Event 事件函数中传递额外的参数](extraParametersInEventFunction.md)
     * [gitignore4dart](gitignore4dart.md)
