@@ -13,7 +13,6 @@
 * [web开发概览](webdev_bigpicture.md)
     * [关于webapp](about_webapp.md)
     * [dart中的重要约定](Conventions.md)
-    * [dart中的重要约定](Conventions.md)
     * [用dart程序控制html界面](dynamicchangepage.md)
     * [Dart 编程初体验](dartfirstApp.md)
 * [思维](解决这个小需求要怎么编程？.md)
