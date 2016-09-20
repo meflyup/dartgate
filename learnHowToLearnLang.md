@@ -49,7 +49,8 @@
 
 >注意，本次课堂是“翻”了。从本次开始到周四的课之前，完成上述作业
 >设计开发过程中的问题下节课统一回答。
-
+>自学markdown语法 
+[](http://www.yaosansi.com/post/markdown-on-github/#5-_GitHub%E6%89%A9%E5%B1%95%E8%AF%AD%E6%B3%95)
 
 
 
