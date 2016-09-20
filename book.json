@@ -6,10 +6,10 @@
         "fbqx",
         "ace",
         "mermaid",
-        "videoplayer",
         "local-video",
         "quiz",
-        "exercises-quote-fix"
+        "exercises-quote-fix",
+        "video"
     ],
     "pluginsConfig": {
         "quiz": {
