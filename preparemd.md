@@ -1,17 +1,5 @@
 # 准备
 本章是开始学习dart web编程的环境准备。涉及到dart sdk dart 开发用的dartrium浏览器以及开发工具  
-
-{% raw %}
-  <video id="my-video" class="video-js" controls preload="auto" width="960" height="369"
-  poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
-  <source src="https://s3-ap-southeast-1.amazonaws.com/heartroom/085502220915173e3a825390.mp4" type='video/mp4'>
-  <p class="vjs-no-js">
-    To view this video please enable JavaScript, and consider upgrading to a web browser that
-    <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-  </p>
-  </video>
-{% endraw %}
-   
    
 ## exercise  
 {% exercise %}
