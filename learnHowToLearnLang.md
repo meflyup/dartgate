@@ -65,45 +65,37 @@
 {% endraw %} 
 - 组员协作视频
 {% raw %}
-
-
-
  <video id="my-video" class="video-js" controls preload="auto" width="960" height="369"
-
-
-
  poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
-
-
-
  <source src="http://odsyciu9w.bkt.clouddn.com/do_assignment2.mp4" type='video/mp4'>
-
-
-
  <p class="vjs-no-js">
-
-
-
  To view this video please enable JavaScript, and consider upgrading to a web browser that
-
-
-
  <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-
-
-
  </p>
-
-
-
  </video>
-
-
-
 {% endraw %}
 
 - 提交issues视频：
->未完待续
+{% raw %}
+
+ <video id="my-video" class="video-js" controls preload="auto" width="960" height="369"
+
+ poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+
+ <source src="http://odsyciu9w.bkt.clouddn.com/issue.mp4" type='video/mp4'>
+
+ <p class="vjs-no-js">
+
+ To view this video please enable JavaScript, and consider upgrading to a web browser that
+
+ <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+
+ </p>
+
+ </video>
+
+{% endraw %}
+
 
  - 小组协作找到答案
  - 消化题目的答案
