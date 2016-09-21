@@ -55,8 +55,10 @@
 
  </video>
 
-{% endraw %} 
-- 组员协作视频
+{% endraw %}   
+
+- 组员协作视频  
+
 {% raw %}
  <video id="my-video" class="video-js" controls preload="auto" width="896" height="480"
  poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
@@ -68,7 +70,8 @@
  </video>
 {% endraw %}
 
-- 提交issues视频：
+- 提交issues视频  
+
 {% raw %}
 
  <video id="my-video" class="video-js" controls preload="auto" width="896" height="480"
