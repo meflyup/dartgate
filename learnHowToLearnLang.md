@@ -63,7 +63,7 @@
  </video>
 
 {% endraw %} 
-- 组员协作完成
+- 组员协作视频
 {% raw %}
 
 
@@ -76,7 +76,7 @@
 
 
 
- <source src="http://odsyciu9w.bkt.clouddn.com/do_assignment.mp4" type='video/mp4'>
+ <source src="http://odsyciu9w.bkt.clouddn.com/do_assignment2.mp4" type='video/mp4'>
 
 
 
@@ -102,7 +102,8 @@
 
 {% endraw %}
 
-
+- 提交issues视频：
+>未完待续
 
  - 小组协作找到答案
  - 消化题目的答案
