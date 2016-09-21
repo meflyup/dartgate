@@ -45,19 +45,12 @@
  - 小组长初始化assignment文件视频
  
 {% raw %}
-
  <video id="my-video" class="video-js" controls preload="auto" width="960" height="369"
-
  poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
-
  <source src="http://odsyciu9w.bkt.clouddn.com/initassignment.mp4" type='video/mp4'>
-
  <p class="vjs-no-js">
-
  To view this video please enable JavaScript, and consider upgrading to a web browser that
-
  <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-
  </p>
 
  </video>
