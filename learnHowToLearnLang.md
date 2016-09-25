@@ -91,7 +91,10 @@
  </video>
 
 {% endraw %}
+- 在作业基础上初始化web app
 
+
+{% raw %} <video id="my-video" class="video-js" controls preload="auto" width="896" height="480" poster="MY_VIDEO_POSTER.jpg" data-setup="{}"> <source src="http://odsyciu9w.bkt.clouddn.com/initwebapp.mp4" type='video/mp4'> <p class="vjs-no-js"> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a> </p> </video>
 
  - 小组协作回答问题
  - 消化题目的答案
