@@ -6,6 +6,7 @@
     * [开发环境](enviroment.md)
         * [Dart SDK及浏览器](darkSDK.md)
         * [开发工具&IDE](softide.md)
+            * [安装webstorm浏览器调试插件](安装-浏览器调试插件.md)
     * [协作环境](collaboration_environment.md)
         * [代码协作 git&github](install_git.md)
         * [组建小组](create_team.md)
