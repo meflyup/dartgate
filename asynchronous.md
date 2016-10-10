@@ -7,6 +7,11 @@
 ##web编程中为何要用异步机制  
 回想十年前，大家用网页的时候，有没有碰到网页点一下链接，就必须等一下，等到那个页面完全载入才能继续点另一个链接？这种用户体验放到现在的话，网站肯定没多少人光顾。这就是web app中的*同步*机制的弊端。而现代很多web app中，你经常可以不停的点击各种按钮、链接，页面从不停止对你的响应。这就是web app中的*同步*制带来流畅的用户体验。这就是web 编程中*异步*的好处。  
 ## dart如何实现异步  
+Asynchronous programming in Dart is characterized by the Future and Stream classes. 
+A Future represents a computation that doesn’t complete immediately. Where a normal function returns the result, an asynchronous function returns a Future, which will eventually contain the result. The future will tell you when the result is ready.
+
+A stream is a sequence of asynchronous events. It is like an asynchronous Iterable—where, instead of getting the next event when you ask for it, the stream tells you that there is an event when it is ready.
+
 大概理解了*同步*和*异步*的概念后。让我们来接触dart语言中的异步机制。
 
 <!--
