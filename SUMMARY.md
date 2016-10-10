@@ -22,6 +22,7 @@
     * [案例2](案例2.md)
     * [案例3](案例3.md)
 * [搭建数据服务器](yourOwnServer.md)
+    * [简单服务器](简单服务器.md)
     * [获取数据库数据](getDataFromDb.md)
     * [restfule service](restfule_service.md)
     * [从服务器获取json数据，并动态添加到HTML中](dynamiccreatepagecontentwithdata.md)
