@@ -19,7 +19,7 @@
     * [用dart程序控制html界面](dynamicchangepage.md)
 * [思维](解决这个小需求要怎么编程？.md)
     * [学习从官方站搜索权威一手资料](learnHowToLearnLang.md)
-    * [案例1](案例1.md)
+    * [课堂点名小程序](案例1.md)
     * [案例2](案例2.md)
     * [案例3](案例3.md)
 * [搭建数据服务器](yourOwnServer.md)
