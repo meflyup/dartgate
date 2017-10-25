@@ -3,8 +3,9 @@
 * [前言](README.md)
 * [致同学](tostudentsmdmd.md)
 * [欢迎](huan-ying.md)
-  * [欢迎](huan-ying/huan-ying.md)
+  * [一些课前的话](huan-ying/huan-ying.md)
   * [web app和web site](huan-ying/web-apphe-web-site.md)
+  * [学习理论和学习环境](huan-ying/xue-xi-li-lun-he-xue-xi-huan-jing.md)
 * [计算机和思想准备](huan-ying.md)
 * [准备](preparemd.md)
   * [开发环境](enviroment.md)
@@ -36,8 +37,9 @@
 * [httprequest](httprequest.md)
 * 欢迎
 * [dart操控html](dartcao-kong-html.md)
-* [DART选择html](dartxuan-ze-html.md)
-* [DOM 文档对象模型](dom-wen-dang-dui-xiang-mo-xing.md)
-* DART添加html元素
-* DART中的html事件处理
+  * [DART选择html](dartxuan-ze-html.md)
+  * DART添加html元素
+  * [DOM 文档对象模型](dom-wen-dang-dui-xiang-mo-xing.md)
+  * [DART中的html事件处理](dartzhong-de-html-shi-jian-chu-li.md)
+  * [事件机制](shi-jian-ji-zhi.md)
 
