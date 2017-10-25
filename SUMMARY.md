@@ -2,10 +2,10 @@
 
 * [前言](README.md)
 * [致同学](tostudentsmdmd.md)
-* [第一周](huan-ying.md)
+* [欢迎](huan-ying.md)
   * [欢迎](huan-ying/huan-ying.md)
   * [web app和web site](huan-ying/web-apphe-web-site.md)
-* 欢迎
+* [计算机和思想准备](huan-ying.md)
 * [准备](preparemd.md)
   * [开发环境](enviroment.md)
     * [Dart SDK及浏览器](darkSDK.md)
@@ -24,8 +24,6 @@
 * [思维](解决这个小需求要怎么编程？.md)
   * [学习从官方站搜索权威一手资料](learnHowToLearnLang.md)
   * [课堂点名小程序](案例1.md)
-  * [案例2](案例2.md)
-  * [案例3](案例3.md)
 * [搭建数据服务器](yourOwnServer.md)
   * [简单服务器](简单服务器.md)
   * [REST Service](rest.md)
@@ -37,4 +35,9 @@
   * [服务器和web 应用客户端](服务器-.md)
 * [httprequest](httprequest.md)
 * 欢迎
+* [dart操控html](dartcao-kong-html.md)
+* [DART选择html](dartxuan-ze-html.md)
+* [DOM 文档对象模型](dom-wen-dang-dui-xiang-mo-xing.md)
+* DART添加html元素
+* DART中的html事件处理
 
