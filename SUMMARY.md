@@ -4,7 +4,7 @@
 * [致同学](tostudentsmdmd.md)
 * [欢迎](huan-ying.md)
   * [一些课前的话](huan-ying/huan-ying.md)
-* [是什么在左右基于web的教育应用的样子](shi-shi-yao-zai-zuo-you-ji-yu-web-de-jiao-yu-ying-yong-de-yang-zi.md)
+* [是什么在左右web教育应用的样子](shi-shi-yao-zai-zuo-you-ji-yu-web-de-jiao-yu-ying-yong-de-yang-zi.md)
 * [设计理论和用户体验](she-ji-li-lun.md)
   * [用户体验设计](she-ji-li-lun/yong-hu-ti-yan-she-ji.md)
   * [人机交互](she-ji-li-lun/ren-ji-jiao-hu.md)
