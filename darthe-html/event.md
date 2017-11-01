@@ -94,7 +94,13 @@ git checkout master
 git pull
 ```
 
-之后在vscode中打开这个项目。你可以运行起来，效果如图：
+之后在vscode中打开这个项目。你可以用
 
+```
+pub serve
+```
 
+运行起来，效果如图：
+
+![](/assets/dnd.png)
 
