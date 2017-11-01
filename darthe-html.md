@@ -1,8 +1,8 @@
 # [**文档对象模型 \(**_**DOM**_**\)**](https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model)
 
- 将 web 页连接到脚本或编程语言。通常这意味着 javascript, 但将 HTML、SVG 或 XML 文档建模为对象不是 javascript 语言的一部分。它给文档（结构树）提供了一个结构化的表述并且定义了一种方式—程序可以对结构树进行访问，以改变文档的结构，样式和内容。 DOM 提供了一种表述形式— 将文档作为一个结构化的节点组以及包含属性和方法的对象。从本质上说，它将 web 页面和脚本或编程语言连接起来了。
+将 web 页连接到脚本或编程语言。通常这意味着 javascript, 但将 HTML、SVG 或 XML 文档建模为对象不是 javascript 语言的一部分。它给文档（结构树）提供了一个结构化的表述并且定义了一种方式—程序可以对结构树进行访问，以改变文档的结构，样式和内容。 DOM 提供了一种表述形式— 将文档作为一个结构化的节点组以及包含属性和方法的对象。从本质上说，它将 web 页面和脚本或编程语言连接起来了。
 
-## \#DOM 和 JavaScript {#DOM_and_JavaScript}
+## DOM 和 JavaScript {#DOM_and_JavaScript}
 
 尽管通常会使用 JavaScript 来访问 DOM， 但它并不是 JavaScript 的一部分，它也可以被其他语言使用.
 
@@ -43,6 +43,14 @@ import xml.dom.minidom as m
 doc = m.parse("C:\\Projects\\Py\\chap1.xml");
 doc.nodeName # DOM property of document object;
 p_list = doc.getElementsByTagName("para");
+```
+
+## Dart如何访问 DOM? {#How_Do_I_Access_the_DOM.3F}
+
+在使用DOM时，您不需要做任何其他特殊的操作。不同的浏览器都有对DOM不同的实现， 这些实现对当前的DOM标准而言，都会呈现出不同程度的一致性，每个web浏览器都会使用一些文档对象模型，从而使页面可以被脚本语言访问。
+
+```
+var domElement=querSelector("#elementID")
 ```
 
 参考
