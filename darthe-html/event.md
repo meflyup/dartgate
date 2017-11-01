@@ -154,7 +154,7 @@ event就代表着事件，我们可以使用event来查看里面的各种信息�
   }
 ```
 
-一个事件从触发（trigger）到被处理，最后一个关键点就是为这个事件赋予一个handle。在dart中，这些handle都可以用上述代码形式来定义。它本质上就是一个function，其返回类型是 void，名称可以自定义，参数列表中至少包括一项 xxxEvent 也就是特定类型的事件。比如你可以定义鼠标点击事件：
+一个事件从触发（trigger）到被处理，需要为这个事件赋予一个handle。在dart中，这些handle都可以用上述代码形式来定义。它本质上就是一个function，其返回类型是 void，名称可以自定义，参数列表中至少包括一项 xxxEvent 也就是特定类型的事件。比如你可以定义鼠标点击事件：
 
 ```dart
 void onClick(MouseEvent e){
@@ -162,6 +162,18 @@ void onClick(MouseEvent e){
 //添加各种处理该事件的代码
 }
 ```
+
+### 注册这个事件handle
+
+最后，需要为这个事件注册这个handle。注册handle通常就是用如下形式：
+
+```dart
+ col.onDragStart.listen(_onDragStart);
+```
+
+* col是事件源
+* onDragStart就是该事件源会出发的一个事件，有很多其他的事件，可以参考 [W3C标准文档 UIEvents](https://www.w3.org/TR/uievents/#events-uievent-types)。
+* .listen\(\)function参数填写的就是handle的function名字
 
 
 
