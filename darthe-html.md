@@ -53,16 +53,22 @@ p_list = doc.getElementsByTagName("para");
 
 | Language | Purpose |
 | :--- | :--- |
-| Dart | Implements the interactivity and dynamic behavior of the web app |
-| HTML | Describes the content of the web app’s page \(the elements in the document and the structure\) |
-| CSS | Governs the appearance of page elements |
+| Dart | 实现对web应用的动态行为的交互控制 |
+| HTML | 描绘页面内容、结构 |
+| CSS | 给页面定义不同的外观 |
 
 ## Dart如何访问 DOM? {#How_Do_I_Access_the_DOM.3F}
+
+DOM的样子如图所示
+
+![](/assets/html&DOM.png)
+
+![](/assets/domtree.png)
 
 在使用DOM时，您不需要做任何其他特殊的操作。不同的浏览器都有对DOM不同的实现， 这些实现对当前的DOM标准而言，都会呈现出不同程度的一致性，每个web浏览器都会使用一些文档对象模型，从而使页面可以被脚本语言访问。
 
 ```dart
-var domElement=querSelector("#elementID")
+var domElement=querSelector("#RipVanWinkle")//这里是使用elementID来选择DOM元素的
 ```
 
 参考
