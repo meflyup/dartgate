@@ -120,5 +120,15 @@ pub serve
     }
 ```
 
+每一个col都是一个事件源，他们被用户操作后，将把事件传播出去。在这个例子中，他们传播的是DragStart，DragEnd，DragOver，DragLeave和Drop。
+
+### 事件本身
+
+事件本身是对事件信息的封装，比如本例子中，
+
+```dart
+ Element dragTarget = event.target;
+```
+
 
 
