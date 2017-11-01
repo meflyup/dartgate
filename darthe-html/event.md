@@ -102,5 +102,5 @@ pub serve
 
 运行起来，效果如图：
 
-![](/assets/dnd.png)
+![](/assets/dnd.png)x
 
