@@ -1,4 +1,8 @@
-[**文档对象模型 \(**_**DOM**_**\)**](https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model) 将 web 页连接到脚本或编程语言。通常这意味着 javascript, 但将 HTML、SVG 或 XML 文档建模为对象不是 javascript 语言的一部分。它给文档（结构树）提供了一个结构化的表述并且定义了一种方式—程序可以对结构树进行访问，以改变文档的结构，样式和内容。 DOM 提供了一种表述形式— 将文档作为一个结构化的节点组以及包含属性和方法的对象。从本质上说，它将 web 页面和脚本或编程语言连接起来了。
+# [**文档对象模型 \(**_**DOM**_**\)**](https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model)
+
+ 将 web 页连接到脚本或编程语言。通常这意味着 javascript, 但将 HTML、SVG 或 XML 文档建模为对象不是 javascript 语言的一部分。它给文档（结构树）提供了一个结构化的表述并且定义了一种方式—程序可以对结构树进行访问，以改变文档的结构，样式和内容。 DOM 提供了一种表述形式— 将文档作为一个结构化的节点组以及包含属性和方法的对象。从本质上说，它将 web 页面和脚本或编程语言连接起来了。
+
+## \#DOM 和 JavaScript {#DOM_and_JavaScript}
 
 尽管通常会使用 JavaScript 来访问 DOM， 但它并不是 JavaScript 的一部分，它也可以被其他语言使用.
 
