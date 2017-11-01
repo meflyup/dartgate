@@ -17,6 +17,24 @@ paragraphs = document.getElementsByTagName("P");
 alert(paragraphs[0].nodeName);
 ```
 
+有操作和创建web页面的属性，方法和事件都会被组织成对象的形式（例如，
+
+`document`
+
+对象表示文档本身，
+
+`table`
+
+对象实现了特定的
+
+`HTMLTableElement`
+
+DOM 接口来访问HTML 表格等）。本文会介绍基于 Gecko浏览器的 DOM 面向对象引用。
+
+
+
+
+
 参考
 
 [https://developer.mozilla.org/zh-CN/docs/Web/API/Document\_Object\_Model/Introduction](https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction)
