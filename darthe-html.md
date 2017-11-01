@@ -67,6 +67,8 @@ DOM的样子如图所示
 
 在使用DOM时，您不需要做任何其他特殊的操作。不同的浏览器都有对DOM不同的实现， 这些实现对当前的DOM标准而言，都会呈现出不同程度的一致性，每个web浏览器都会使用一些文档对象模型，从而使页面可以被脚本语言访问。
 
+![](/assets/querySelector.png)
+
 ```dart
 var domElement=querSelector("#RipVanWinkle")//这里是使用elementID来选择DOM元素的
 ```
