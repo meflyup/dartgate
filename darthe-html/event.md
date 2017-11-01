@@ -175,5 +175,11 @@ void onClick(MouseEvent e){
 * onDragStart就是该事件源会出发的一个事件，有很多其他的事件，可以参考 [W3C标准文档 UIEvents](https://www.w3.org/TR/uievents/#events-uievent-types)。
 * .listen\(\)function参数填写的就是handle的function名字
 
+# 事件驱动的编程模式
+
+通常可以分为事件驱动的编程模式和
+
+基本上我们所接触的应用都是事件驱动的编程模式做出来的应用，操作系统，word，网页...；
+
 
 
