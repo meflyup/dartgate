@@ -141,7 +141,9 @@ pub serve
 
 event就代表着事件，我们可以使用event来查看里面的各种信息，如图所示，我们通过调试（随后的课程会学习调试）可以看到event所包含的各种信息，比如这个事件是从哪个事件源来的，如果是鼠标操作，是那些button，鼠标的位置坐标，是否同时按住了键盘功能键等等。
 
-### ![](/assets/event.png)事件handle
+![](/assets/event.png)
+
+### 事件handle
 
 ```dart
   void _onDragEnd(MouseEvent event) {
@@ -174,6 +176,10 @@ void onClick(MouseEvent e){
 * col是事件源
 * onDragStart就是该事件源会出发的一个事件，有很多其他的事件，可以参考 [W3C标准文档 UIEvents](https://www.w3.org/TR/uievents/#events-uievent-types)。
 * .listen\(\)function参数填写的就是handle的function名字
+
+![](/assets/registerHandle.png)
+
+![](/assets/registerHandle2.png)
 
 # 事件驱动的编程模式
 
