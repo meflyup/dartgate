@@ -41,8 +41,8 @@
   * [到底什么是编程](dao-di-shi-yao-shi-bian-cheng.md)
   * [dart和html](darthe-html.md)
     * [event](darthe-html/event.md)
-    * 查找element
-    * 修改element
+    * [查找element](darthe-html/cha-zhao-element.md)
+    * [修改element](darthe-html/xiu-gai-element.md)
 * [数据服务器](yourOwnServer.md)
   * [简单服务器](简单服务器.md)
   * [REST Service](rest.md)
