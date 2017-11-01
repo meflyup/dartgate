@@ -127,7 +127,31 @@ pub serve
 事件本身是对事件信息的封装，比如本例子中，
 
 ```dart
- Element dragTarget = event.target;
+  void _onDragStart(MouseEvent event) {
+///event.target是什么？
+    Element dragTarget = event.target;
+    ///这个是做什么的？
+    dragTarget.classes.add('moving');
+    _dragSourceEl = dragTarget;
+    event.dataTransfer.effectAllowed = 'move';
+    ///这个是做什么的？
+    event.dataTransfer.setData('text/html', dragTarget.innerHtml);
+  }
+```
+
+event就代表着事件，我们可以使用event来查看里面的各种信息，如图所示，我们通过调试（随后的课程会学习调试）可以看到event所包含的各种信息，比如这个事件是从哪个事件源来的，如果是鼠标操作，是那些button，鼠标的位置坐标，是否同时按住了键盘功能键等等。
+
+### ![](/assets/event.png)事件handle
+
+```dart
+  void _onDragEnd(MouseEvent event) {
+    Element dragTarget = event.target;
+    dragTarget.classes.remove('moving');
+    var cols = document.querySelectorAll('#columns .column');
+    for (var col in cols) {
+      col.classes.remove('over');
+    }
+  }
 ```
 
 
