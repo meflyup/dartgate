@@ -199,11 +199,11 @@ void onClick(MouseEvent e){
 ```dart
 brain.onHear.listen(_onHearHandle);
 void _onHearHandle(EarEvent e){
-if(e.name==myname){
-//todo
-}else{
-//嘿嘿...不是我。
-}
+  if(e.name==myname){
+   //todo
+  }else{
+   //嘿嘿...不是我。
+  }
 }
 ```
 
