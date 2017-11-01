@@ -31,9 +31,15 @@ alert(paragraphs[0].nodeName);
 
 DOM 接口来访问HTML 表格等）。本文会介绍基于 Gecko浏览器的 DOM 面向对象引用。
 
+DOM 被设计成与特定编程语言相独立，使文档的结构化表述可以通过单一，一致的API获得。尽管我们在本参考文档中会专注于使用JavaScript， 但DOM 也可以使用其他的语言来实现， 以Python为例，代码如下：
 
-
-
+```py
+# Python DOM example
+import xml.dom.minidom as m
+doc = m.parse("C:\\Projects\\Py\\chap1.xml");
+doc.nodeName # DOM property of document object;
+p_list = doc.getElementsByTagName("para");
+```
 
 参考
 
