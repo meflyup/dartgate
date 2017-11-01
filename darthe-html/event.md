@@ -102,5 +102,25 @@ pub serve
 
 运行起来，效果如图：
 
-![](/assets/dnd.png)
+## ![](/assets/dnd.png)代码分析  
+
+事件驱动的编程有三个主要的概念，他们分别是事件源，事件本身以及事件的处理，最后还有一个是事件队列。在本例子中。
+
+### 事件源
+
+```dart
+ var cols = document.querySelectorAll('#columns .column');
+    for (var col in cols) {
+      col.onDragStart.listen(_onDragStart);
+      col.onDragEnd.listen(_onDragEnd);
+      col.onDragEnter.listen(_onDragEnter);
+      col.onDragOver.listen(_onDragOver);
+      col.onDragLeave.listen(_onDragLeave);
+      col.onDrop.listen(_onDrop);
+    }
+```
+
+
+
+
 
