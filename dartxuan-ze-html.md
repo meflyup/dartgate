@@ -150,5 +150,99 @@ querySelector('#RipVanWinkle').text = 'Wake up, sleepy head!';
 
 这会使浏览器立即重新呈现包含此应用程序的浏览器页面，从而在浏览器页面上动态显示文本。
 
+## Dart 添加HTML元素
+
+
+### HTML和Dart连接
+Dart网络应用程序在运行时动态改变浏览器窗口中的文本。当然，将文本放在浏览器页面上，而不用做其他事情，可以用直接的HTML来完成。这个小应用程序只显示如何从飞镖应用程序连接到浏览器页面。
+
+在DartPad中，Dart代码和HTML代码之间唯一可见的连接是RipVanWinkle ID。
+
+![image](https://webdev.dartlang.org/tutorials/images/dart-html-connect.png)
+
+要在DartPad之外运行您的应用程序，您需要在HTML和Dart代码之间建立另一个连接：您必须将<script>标记添加到HTML以告诉浏览器在哪里查找Dart代码。您还必须添加其他HTML标记以提供浏览器所需的其他页面信息和结构。
+
+这里是这个应用程序的完整HTML代码，假设Dart代码位于一个名为main.dart：
+
+
+```
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>A Minimalist App</title>
+</head>
+
+<body>
+<p id="RipVanWinkle">
+RipVanWinkle paragraph.
+</p>
+
+<script type="application/dart" src="main.dart"></script>
+<script src="packages/browser/dart.js"></script>
+</body>
+</html>
+```
+
+这两个<script>标签是这个添加的HTML的唯一Dart特定部分。他们将Dart代码绑定到页面中，告诉浏览器在哪里找到Dart代码以及如何处理它。
+
+下图总结了Dart和HTML代码之间的所有连接。
+
+![image](https://webdev.dartlang.org/tutorials/images/dart-html-connect-full.png)
+
+### 给应用程序一些CSS样式
+大多数HTML使用级联样式表（CSS）来定义 控制页面元素外观的样式。让我们定制小应用程序的CSS。
+
+1.点击CSS。视图从Dart代码切换到（不存在的）CSS代码。
+
+2.添加以下CSS代码
+
+
+```
+#RipVanWinkle {
+font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+margin-top: 20px;
+background-color: SlateBlue;
+color: Yellow;
+}
+```
+
+HTML OUTPUT下的显示会立即更改以反映新的样式，这些样式仅适用于ID为RipVanWinkle的页面元素。
+
+### 关于CSS选择器
+ID，类和其他关于元素的信息在HTML中建立。您的Dart代码可以使用这些信息来使用CSS选择器来获取元素 - 一种用于在DOM中选择匹配元素的模式。CSS选择器允许CSS，HTML和Dart代码引用相同的对象。通常，选择器指定ID，HTML元素类型，类或属性。选择器也可以嵌套。
+
+Dart程序中的CSS选择器非常重要，因为您可以在querySelector（）和querySelectorAll（）中使用它们来获取DOM中的匹配元素。Dart程序通常使用带有querySelector（）的ID选择器和带有querySelectorAll（）的类选择器。
+
+以下是一些CSS选择器的例子：
+
+选择器类型 | 例子 | 描述
+---|---|---
+ID选择器 | #RipVanWinkle| 匹配一个唯一的元素
+HTML元素 | p| 匹配所有段落
+HTML元素 | h1|匹配所有一级标题
+类 |     .classname|将所有项目与类classname匹配
+Asterisk|*|匹配所有元素
+属性|input[type=”button”]|匹配所有按钮输入元素
+
+
+
+`提示： 如您所见，即使没有CSS文件，迷你应用程序也会使用CSS选择器ID #RipVanWinkle。你不需要一个Dart程序的CSS文件。你也不需要一个CSS文件来使用CSS选择器。CSS选择器在HTML文件中建立，供Dart程序用来选择匹配的元素。`
+
+我们来看看迷你应用程序的CSS代码。小应用程序的CSS文件有一个CSS规则。一个CSS规则有两个主要部分：一个选择器和一组声明。
+
+![image](https://webdev.dartlang.org/tutorials/images/css-rule-explained.png)
+
+
+在迷你应用程序中，选择器#RipVanWinkle是一个ID选择器，由散列标记（＃）指示; 它与指定的ID匹配一个唯一的元素，我们现在累了的RipVanWinkle段落元素。RipVanWinkle是HTML文件中的ID。它在CSS文件和Dart代码中使用散列标签（＃）引用。在HTML文件中没有句点（。）指定类名，并在CSS文件和Dart代码中用句点（。）引用。
+
+CSS规则的大括号之间是一个声明列表，每个以分号（;）结尾。每个声明都指定一个属性及其值。这组声明一起定义了 所有匹配元素的样式表。样式表用于设置网页上匹配元素的外观。
+
+![image](https://webdev.dartlang.org/tutorials/images/css-property-value.png)
+
+RipVanWinkle段落的CSS规则指定了几个属性; 例如，它将文本颜色设置为黄色。
+
 
 
