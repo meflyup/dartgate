@@ -1,5 +1,4 @@
-# 组建小组
-DSDDD
+# 组建协作小组
 
 - 到[www.github.com](www.github.com)注册一个账号
 - 用老师提供的账号把自己加入到组织ECNU-DEIT-2013 中来
