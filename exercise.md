@@ -33,10 +33,9 @@ md 文件中使用如下方法编写上述表格：
 | 以此类推 | 以此类推|
 ```
   - md文件内容就是一个id字典，供小组团队合作时候，方便dart编程中选择器调用 
-  - 
   ```dart
-querySelector（#id）;
-```
+    querySelector（#id）;
+  ```
 
 
 

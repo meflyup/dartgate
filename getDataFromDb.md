@@ -3,6 +3,7 @@
 上一节课http放回json数据。本次课从数据库获取数据，并以json格式返回客户端。本课结束后，将拥有一个常规意义上完整的web app。你已经走完了一个圆圈。知道web app开发的一些基本的、核心的要素和概念。剩下的就靠你在本课程中所掌握的学习能力不断发展了。  
 同上节课一样。老师给各位同学演示零dart数据库基础该怎么做，希望大家掌握这些思路。
 数据库是应用的后台基础。各类语言都会发展出相关的数据库处理API。dart语言也不例外。那么从dart文档网站我们如何开始学习。
+
 ##思路
 1. 在[dart网站](www.dartlang.org)搜索如下关键字。
  - database
@@ -85,6 +86,7 @@ results.forEach((row) {
 	print('Name: ${row[0]}, email: ${row[1]}');
 });
 {%endace%}  
+
 这段代码来自[sqljocky usage](https://pub.dartlang.org/packages/sqljocky)。 
 你知道第1行是做什么的吗？要知道做什么，关键就看ConnectionPool这个类是做什么的。这个容易，我们查看它的“说明书”即可： 
 

@@ -44,7 +44,7 @@ HTML使用标签来描述文档。例如，上面的简单HTML代码使用页面
 
 ### 编辑HTML源代码
 
-1.点击HTML，在DartPad的左上角。该视图从Dart代码切换到（不存在的）HTML代码。
+1.点击HTML，在DartPad的左上角。该视图从Dart代码切换到（不存在的）HTML代码。   
 2.添加以下HTML代码：
 
 ```
