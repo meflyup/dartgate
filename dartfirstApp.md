@@ -1,8 +1,6 @@
-# Dart 编程初体验
+## Dart 编程初体验
 
-首先引入一个及其简单的dart webapp。立即运行，其效果如图所示
-
-![dart first app](http://xx)
+首先引入一个及其简单的dart webapp。
 
 该程序dart应用代码如下：
 ```dart
