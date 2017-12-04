@@ -36,7 +36,7 @@
 
 ## 小组操作
 
-- 小组长初始化assignment文件视频
+- 小组长初始化assignment文件视频(视频地址：http://odsyciu9w.bkt.clouddn.com/initassignment.mp4)
 
  
 	{% raw %}
@@ -50,7 +50,7 @@
 	 </video>
 	{% endraw %}   
 
-- 组员协作视频  
+- 组员协作视频（视频地址：http://odsyciu9w.bkt.clouddn.com/do_assignment2.mp4）  
 
 	{% raw %}
 	 <video id="my-video" class="video-js" controls preload="auto" width="896" height="480"
@@ -63,7 +63,7 @@
 	 </video>
 	{% endraw %}
 
-- 提交issues视频  
+- 提交issues视频（视频地址：http://odsyciu9w.bkt.clouddn.com/issue.mp4）  
 
 	{% raw %}
 	 <video id="my-video" class="video-js" controls preload="auto" width="896" height="480"
@@ -76,7 +76,7 @@
 	 </video>
 	{% endraw %}
 
-- 在作业基础上初始化web app  
+- 在作业基础上初始化web app（视频地址：http://odsyciu9w.bkt.clouddn.com/initwebapp.mp4）  
 
 
 	{% raw %} 
